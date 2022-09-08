@@ -1,19 +1,28 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "clark-newell",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A personal website, portfolio and blog based on the gatsby default starter sourcing from a custom Sanity CMS",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Clark Newell <williamcnewell@gmail.com>",
   "dependencies": {
+    "@sanity/block-content-to-react": "^3.0.0",
     "gatsby": "^4.22.0",
     "gatsby-plugin-image": "^2.22.0",
     "gatsby-plugin-manifest": "^4.22.0",
+    "gatsby-plugin-sass": "^5.22.0",
     "gatsby-plugin-sharp": "^4.22.0",
+    "gatsby-plugin-styled-components": "^5.22.0",
     "gatsby-source-filesystem": "^4.22.0",
+    "gatsby-source-sanity": "^7.4.2",
     "gatsby-transformer-sharp": "^4.22.0",
+    "node-sass": "^7.0.3",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-sticky-header": "^0.2.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "sass": "^1.54.9",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
