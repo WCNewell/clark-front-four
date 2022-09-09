@@ -4,6 +4,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Unicorn from "../assets/unicorn.inline.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -11,6 +12,7 @@ const IndexPage = () => (
       <h1>
         Hello! Have you met <b>Me?</b>
       </h1>
+      <Unicorn />
   </Layout>
 )
 
