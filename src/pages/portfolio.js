@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 
 const PortfolioPage = () => (
   <Layout>
-    <h1>We should stop meeting this way</h1>
+    <h1>Don't hate me because I'm beautiful</h1>
     <p>Welcome to the Portfolio page</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>

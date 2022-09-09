@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Logo from '../assets/clarklogo.inline.svg'
+import Nav from './nav'
 
 const Header = ({siteTitle}) => {
   const [isSticky, setSticky] = React.useState(false)
@@ -20,19 +21,23 @@ const Header = ({siteTitle}) => {
     }
   }, []);
   
-  <header>
-   <Link
-      to="/"
-      style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
-      }}
-    >
-      
-      <Logo />
-      <h2>{siteTitle}</h2>
-    </Link>
-  </header>
+  return (
+    <header>
+      <Link to="/" aria-label="home page">
+        Logo
+        {/* <Logo className="logo" /> */}
+        <h2>{siteTitle}</h2>
+      </Link>
+      <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
+        <div className='sticky-inner'> 
+          <div>
+            Hamburger
+            {/* <Nav /> */}
+          </div>
+        </div>
+      </div>
+    </header>
+  )
 }
 
 Header.propTypes = {

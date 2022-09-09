@@ -52,3 +52,19 @@
   max-width: none;
   line-height: var(--line-height-loose);
 }
+
+.logo {
+  fill: $white;
+  height: 3.75rem;
+  width: 3.75rem;
+}
+
+.sticky-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.sticky .sticky-inner {
+  position: fixed;
+  right: 0.5rem;
+}

@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+import * as styles from "../styles/index.module.css"
 
 const links = [
   {
@@ -73,7 +73,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div className={styles.textCenter}>
-      <StaticImage
+      {/* <StaticImage
         src="../images/example.png"
         loading="eager"
         width={64}
@@ -81,9 +81,9 @@ const IndexPage = () => (
         formats={["auto", "webp", "avif"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
-      />
+      /> */}
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Hello! Have you met <b>Me?</b>
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
