@@ -1,8 +1,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import Logo from '../assets/clarklogo.inline.svg'
-import Nav from './nav'
+// import Logo from "../assets/clarklogo.inline.svg"
+// import Nav from "./nav"
 
 const Header = ({siteTitle}) => {
   const [isSticky, setSticky] = React.useState(false)
@@ -22,7 +22,7 @@ const Header = ({siteTitle}) => {
   }, []);
   
   return (
-    <header>
+    <header className="ugly-header">
       <Link to="/" aria-label="home page">
         Logo
         {/* <Logo className="logo" /> */}

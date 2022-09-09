@@ -53,6 +53,10 @@
   line-height: var(--line-height-loose);
 }
 
+.ugly-header {
+  background-color: #36a832
+}
+
 .logo {
   fill: $white;
   height: 3.75rem;

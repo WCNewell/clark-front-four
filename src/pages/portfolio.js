@@ -12,6 +12,6 @@ const PortfolioPage = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Page two" />
+export const Head = () => <Seo title="Portfolio" />
 
 export default PortfolioPage

@@ -12,6 +12,6 @@ const BlogPage = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Page two" />
+export const Head = () => <Seo title="Blog" />
 
 export default BlogPage
