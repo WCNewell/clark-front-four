@@ -9,10 +9,10 @@ import Unicorn from "../assets/unicorn.inline.svg"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-      <h1>
+      {/* <h1>
         Hello! Have you met <b>Me?</b>
       </h1>
-      <Unicorn />
+      <Unicorn /> */}
   </Layout>
 )
 

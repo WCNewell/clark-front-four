@@ -1,9 +1,8 @@
 import React from 'react';
 import '../styles/global-styles.scss'
 import '../styles/star-styles.scss';
-import '../styles/grids.css'
 
-const StarMode = () => {
+const StarBackground = () => {
 	return (
 		<>
 			<div>
@@ -15,4 +14,4 @@ const StarMode = () => {
 	);
 }
 
-export default StarMode;
+export default StarBackground;

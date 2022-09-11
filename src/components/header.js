@@ -21,11 +21,15 @@ const Header = () => {
   }, []);
   
   return (
-    <header className="ugly-header">
-      <Link to="/" aria-label="home page">
-        <Logo className="logo" />
+    <header>
+      <div className="logo-grid">
+        <Link to="/" aria-label="home page">
+          <Logo className="logo" />
+        </Link>
+      </div>
+      <div className="name-grid">
         <h2 className="name">clark newell</h2>
-      </Link>
+      </div>
       <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
           <div className='sticky-inner'> 
             <div>

@@ -10,7 +10,7 @@ $shadows-small:  multiple-box-shadow(700);
 $shadows-medium: multiple-box-shadow(200);
 $shadows-big:    multiple-box-shadow(100);
 
-body.dark-mode .stars {
+.stars {
   
   width: 1px;
   height: 1px;
@@ -29,7 +29,7 @@ body.dark-mode .stars {
   }
 }
 
-body.dark-mode .stars2 {
+.stars2 {
   width: 2px;
   height: 2px;
   background: transparent;
@@ -47,7 +47,7 @@ body.dark-mode .stars2 {
   }
 }
 
-body.dark-mode .stars3 {
+.stars3 {
   width: 3px;
   height: 3px;
   background: transparent;
