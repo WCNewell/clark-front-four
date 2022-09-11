@@ -1,5 +1,4 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Logo from "../assets/clarklogo.inline.svg"
 import Nav from "./nav"
@@ -25,7 +24,7 @@ const Header = () => {
     <header className="ugly-header">
       <Link to="/" aria-label="home page">
         <Logo className="logo" />
-        <h2>clark newell</h2>
+        <h2 className="name">clark newell</h2>
       </Link>
       <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
           <div className='sticky-inner'> 
@@ -36,14 +35,6 @@ const Header = () => {
       </div>
     </header>
   )
-}
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
 }
 
 export default Header

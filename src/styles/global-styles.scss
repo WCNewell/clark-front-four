@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-color: $white;
+  background-color: $black;
   transition: background-color 0.3s ease;
   color: $black;
 
@@ -32,13 +32,13 @@ body {
   }
 
   .logo {
-      fill: $black;
+      fill: $white;
       height: 3.75rem;
       width: 3.75rem;
   }
 
   .name {
-      color: $black;
+      color: $white;
   }
   
   .footer {
@@ -141,10 +141,6 @@ img {
   justify-content: center;
 }
 
-.astro-image {
-  margin-top: 25rem;
-}
-
 button {
   color: $black;
   background-color: $truewhite;
@@ -153,14 +149,6 @@ button {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   box-shadow: 5px 2.5px 2.5px $grey;
-}
-
-.sun-grid {
-  margin-top: 0.5rem;
-}
-
-.moon-grid {
-  margin-top: 0.5rem;
 }
 
 .sticky-wrapper {
@@ -193,6 +181,17 @@ button {
   margin-bottom: 1rem;
   @media screen and (min-width: 860px) {
     margin-left: 1rem;
+    margin-right: 1.5rem;
+  }
+}
+
+.tiktok-icon {
+  height: 2.3rem;
+  width: 2.3rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  @media screen and (min-width: 860px) {
+    margin-left: 0.7rem;
     margin-right: 1.5rem;
   }
 }
