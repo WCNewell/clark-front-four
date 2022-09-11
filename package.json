@@ -13,6 +13,7 @@
     "gatsby-plugin-sass": "^5.22.0",
     "gatsby-plugin-sharp": "^4.22.0",
     "gatsby-plugin-styled-components": "^5.22.0",
+    "gatsby-plugin-typography": "^4.22.0",
     "gatsby-source-filesystem": "^4.22.0",
     "gatsby-source-sanity": "^7.4.2",
     "gatsby-transformer-sharp": "^4.22.0",
@@ -23,8 +24,11 @@
     "react-jss": "^10.9.2",
     "react-sticky-header": "^0.2.0",
     "react-syntax-highlighter": "^15.5.0",
+    "react-typography": "^0.16.20",
     "sass": "^1.54.9",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "typography": "^0.16.21",
+    "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
