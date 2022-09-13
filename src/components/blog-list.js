@@ -1,5 +1,5 @@
 import React from 'react';
-import SinglePost from './SinglePost';
+import SinglePost from './single-post';
 
 const BlogList = ({ posts }) => {
   return (

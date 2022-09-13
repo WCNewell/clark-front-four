@@ -21,7 +21,7 @@ const Header = () => {
   }, []);
   
   return (
-    <header>
+    <>
       <div className="logo-grid">
         <Link to="/" aria-label="home page">
           <Logo className="logo" />
@@ -37,7 +37,7 @@ const Header = () => {
             </div>
           </div>
       </div>
-    </header>
+    </>
   )
 }
 

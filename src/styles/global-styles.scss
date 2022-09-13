@@ -18,7 +18,7 @@ html, body {
 body {
   background-color: $black;
   transition: background-color 0.3s ease;
-  color: $black;
+  color: $white;
 
   a {
     color: $black;
@@ -119,6 +119,7 @@ body {
 
 h1 {
   margin-top: 0.5rem;
+  color: $white;
 }
 
 h2 {
@@ -161,13 +162,10 @@ button {
   right: 0.5rem;
 }
 
-.mode-icon {
-  fill: $gold;
-  height: 1.25rem;
-  width: 1.25rem;
-  margin-top: 0.5rem;
-  cursor: pointer;
-}
+.svg-art {
+  height: 15.0rem;
+  width: 15.0rem;
+} 
 
 .caption {
   font-size: 14px;
