@@ -3,6 +3,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import downLoadFile from '../assets/220418_Newell_William-Clark_Resume-Full.pdf';
+import Promotion from "../assets/promotion.inline.svg"
+import Swan from "../assets/swan.inline.svg"
+import Rainbow from "../assets/rainbow-two.svg"
 
 const ClarkAlyeska = () => {
   return (
@@ -25,7 +28,8 @@ const AboutPage = () => (
 					<h2>Goal</h2>
 					<p>To uplift your team, delight clients and solve problems as an Implementation Consultant, Project Manager or Web Developer. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack web development, and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 				</div>
-				<div className="grid-two">	
+				<div className="grid-two">
+				<Promotion />	
 				<h2>Education</h2>
 					<ul>
 						<li>
@@ -47,6 +51,7 @@ const AboutPage = () => (
 							<p>Completed a liberal arts degree in music along with a German minor. Also intentionally completed multiple business, communication and marketing electives all while working full time as an administrator for the College of Engineering.</p>	
 						</li>
 					</ul>
+					<Swan />
 					<h2>Highlighted Experience</h2>
 					<ul>
             <li>
@@ -113,6 +118,7 @@ const AboutPage = () => (
 					</ul>
 				</div>
 				<div>
+				<Rainbow />
 				<h2>Service</h2>
 					<ul>
 						<li>
