@@ -22,10 +22,10 @@ const Footer = () => {
               <a href='https://github.com/WCNewell' aria-label="github">
                   <Github className='social-icons' alt='github icon'/>
               </a>
-              <a href='https://instagram.com/willcnewell/' aria-label="instagram">
+              <a href='https://instagram.com/drypeaks/' aria-label="instagram">
                   <Instagram className='social-icons' alt='instagram icon'/>
               </a>
-              <a href='https://tiktok.com/@mtnclark' aria-label="tiktok">
+              <a href='https://tiktok.com/@drypeaks' aria-label="tiktok">
                   <TikTok className='tiktok-icon' alt='tiktok icon'/>
               </a>
             </IconBox>
