@@ -22,7 +22,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate("/")
         }}>
           <span aria-hidden="true"></span>
-            <h3>home</h3>
+            <h3 className="menu-item">home</h3>
       </a>
       <a
         href="/about"
@@ -31,7 +31,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate("/about")
         }}>
           <span aria-hidden="true"></span>
-            <h3>about</h3>
+            <h3 className="menu-item">about</h3>
       </a>
       <a
         href="/portfolio"
@@ -40,7 +40,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate("/portfolio")
         }}>
           <span aria-hidden="true"></span>
-            <h3>portfolio</h3>
+            <h3 className="menu-item">portfolio</h3>
       </a>
       <a
         href="/blog"
@@ -49,7 +49,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate("/blog")
         }}>
           <span aria-hidden="true"></span>
-              <h3>blog</h3>
+              <h3 className="menu-item">blog</h3>
       </a>
       <a
         href="/contact"
@@ -58,7 +58,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate("/contact")
         }}>
           <span aria-hidden="true"></span>
-              <h3>contact</h3>
+              <h3 className="menu-item">contact</h3>
       </a>
       <div className="menu-icons">
         <a aria-label="linked in" href='https://linkedin.com/in/william-clark-newell/'>
