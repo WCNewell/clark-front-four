@@ -71,7 +71,7 @@ const IndexPage = ({ data }) => {
         </Link>
       </div>
       <div className="bottom-content">
-        <h1>What Collaborators are Saying About Clark</h1>
+        <h1>What Collaborators are Saying</h1>
         <Carousel />
       </div>
     </Layout>

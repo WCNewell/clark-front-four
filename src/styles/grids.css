@@ -49,6 +49,8 @@
   .bottom-content {
     grid-column: col-start 1 / span 12;
     grid-row: 4;
+    display: flex;
+    flex-direction: column;
   }
 
  
