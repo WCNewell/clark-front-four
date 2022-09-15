@@ -2,6 +2,7 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import BlogList from "../components/blog-list"
+import Carousel from "../components/carousel"
 import Seo from "../components/seo"
 import styled from "styled-components"
 import Unicorn from "../assets/unicorn.inline.svg"
@@ -68,6 +69,10 @@ const IndexPage = ({ data }) => {
         <Link to="/blog" >
           <h3 className="blog-link" aria-label="see more posts">See more posts...</h3>
         </Link>
+      </div>
+      <div className="bottom-content">
+        <h1>What Collaborators are Saying About Clark</h1>
+        <Carousel />
       </div>
     </Layout>
   )

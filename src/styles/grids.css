@@ -46,6 +46,11 @@
     border-bottom-left-radius: 0.5rem;
   }
 
+  .bottom-content {
+    grid-column: col-start 1 / span 12;
+    grid-row: 4;
+  }
+
  
   /* .page-title {
     grid-column: col-start 2 / span 14;
