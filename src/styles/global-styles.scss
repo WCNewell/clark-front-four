@@ -135,6 +135,10 @@ b {
   color: $blue;
 }
 
+p {
+  color: $black;
+}
+
 img {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -173,11 +177,12 @@ button {
 
 .svg {
   height: 10rem;
+  padding: 1rem;
   opacity: 0.7;
 }
 
 // .right-svg {
-//   justify-content: flex-end;
+//   align-content: flex-end;
 //   height: 10rem;
 //   opacity: 0.5;
 // }

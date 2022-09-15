@@ -2,7 +2,9 @@ import * as React from "react"
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import styled from "styled-components"
 import downLoadFile from '../assets/220418_Newell_William-Clark_Resume-Full.pdf';
+import Diploma from "../assets/diploma.inline.svg"
 import Rainbow from "../assets/rainbow-two.svg"
 
 const ClarkAlyeska = () => {
@@ -18,15 +20,19 @@ const ClarkAlyeska = () => {
 const AboutPage = () => (
   <Layout>
     <h1>about</h1>
-    <h2>We should stop meeting this way</h2>
-    <p>Welcome to the About page</p>
-    <div>
-					<ClarkAlyeska />
-					<p className="caption">Hello World! I'm a customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
-					<h2>Goal</h2>
-					<p>To uplift your team, delight clients and solve problems as an Implementation Consultant, Project Manager or Web Developer. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack web development, and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
-				</div>
-				<div className="grid-two">
+		<div className="top-content">
+			<CallCard>
+				<h2>We should stop meeting this way</h2>
+			</CallCard>
+			<div>
+				<ClarkAlyeska />
+				<p className="caption">Hello World! I'm a customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
+				<h2>Goal</h2>
+				<p>To uplift your team, delight clients and solve problems as an Implementation Consultant, Project Manager or Web Developer. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack web development, and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
+			</div>
+		</div>		
+				<div className="mid-content">
+				<Diploma className="svg" />
 				<h2>Education</h2>
 					<ul>
 						<li>
@@ -113,7 +119,8 @@ const AboutPage = () => (
 						</li>
 					</ul>
 				</div>
-				<div>
+				<CallCard>
+				<Rainbow className="svg"/>
 				<h2>Service</h2>
 					<ul>
 						<li>
@@ -127,10 +134,16 @@ const AboutPage = () => (
 							<p>Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Denver, Colorado area via meetup.</p>	
 						</li>
 					</ul>
-				</div>
+				</CallCard>
   </Layout>
 )
 
 export const Head = () => <Seo title="About" />
 
 export default AboutPage
+
+const CallCard = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+`

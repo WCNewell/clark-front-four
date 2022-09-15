@@ -19,8 +19,8 @@ const SinglePost = ({ post }) => {
             {/* <ul>
               <li className="category">{post.categories.map((category) => category.title).join(' ')}</li>
             </ul> */}
-            <p>{post.tlDr}</p>
           </Link>
+          <p>{post.tlDr}</p>
         </span>
       </div>
     </>
