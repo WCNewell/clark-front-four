@@ -6,8 +6,8 @@ import Seo from "../components/seo"
 
 const BlogPage = () => (
   <Layout>
-    <h1>I'm Extra! Read all about it</h1>
-    <p>Welcome to the Blog page</p>
+    <h1>blog</h1>
+    <p>I'm Extra! Read all about it!</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

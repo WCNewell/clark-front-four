@@ -124,6 +124,15 @@ h1 {
 
 h2 {
   margin-top: 0.25rem;
+  color: $white;
+}
+
+h3 {
+  color: $blue
+}
+
+b {
+  color: $blue;
 }
 
 img {
@@ -162,10 +171,16 @@ button {
   right: 0.5rem;
 }
 
-.svg-art {
-  height: 15.0rem;
-  width: 15.0rem;
-} 
+.svg {
+  height: 10rem;
+  opacity: 0.7;
+}
+
+// .right-svg {
+//   justify-content: flex-end;
+//   height: 10rem;
+//   opacity: 0.5;
+// }
 
 .caption {
   font-size: 14px;
