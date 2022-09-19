@@ -11,7 +11,7 @@ import Mission from "../assets/mission.inline.svg"
 
 export const RecentPostsQuery = graphql`
   query RecentPostsQuery {
-    posts: allSanityPost(limit: 3, sort: {order: DESC, fields: publishedAt}) {
+    posts: allSanityPost(limit: 4, sort: {order: DESC, fields: publishedAt}) {
       nodes {
         _id
         publishedAt

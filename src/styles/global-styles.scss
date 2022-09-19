@@ -1,5 +1,5 @@
 $white: #fafafa;
-$black: #0b0111;
+$black: #0f0018;
 $blue: #097974;
 $pink: #ff0037;
 $gold: #ffbb00;
@@ -186,9 +186,11 @@ button.retro {
 }
 
 .svg {
-  height: 12rem;
+  height: 14rem;
   padding: 1rem;
   opacity: 0.7;
+  position: relative;
+  z-index: 1;
 }
 
 
