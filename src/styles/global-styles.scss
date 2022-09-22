@@ -189,8 +189,6 @@ button.retro {
   height: 14rem;
   padding: 1rem;
   opacity: 0.7;
-  position: relative;
-  z-index: 1;
 }
 
 
@@ -200,6 +198,10 @@ button.retro {
 
 .caption {
   font-size: 14px;
+}
+
+.section-header {
+  padding: 1rem;
 }
 
 .social-icons {
@@ -296,6 +298,6 @@ button.repo-link {
   text-shadow: none;
 }
 
-.content .content-items .grid-one .grid-two .grid-three .grid-four {
-  z-index: 1;
-}
+// .content .content-items .grid-one .grid-two .grid-three .grid-four {
+//   z-index: 1;
+// }
