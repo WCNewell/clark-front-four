@@ -17,13 +17,21 @@ const ClarkAlyeska = () => {
 	)
 }
 
+const DryPeaks = () => {
+	return (
+		<StaticImage
+			src='../images/220923_dpName.jpg'
+			alt="Dry Peaks Logo"
+			placeholder="blurred"
+		/>
+	)
+}
+
 const AboutPage = () => (
   <Layout>
     <h1>about</h1>
 		<div className="top-content">
-			<CallCard>
 				<h2>We should stop meeting this way</h2>
-			</CallCard>
 			<div>
 				<ClarkAlyeska />
 				<p className="caption">Hello World! I'm a customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
@@ -57,6 +65,7 @@ const AboutPage = () => (
 					<h2>Highlighted Experience</h2>
 					<ul>
             <li>
+							<DryPeaks />
 							<h3 className="dark-header">Founder and Small Business Owner - <a href="www.drypeaks.com">DryPeaks</a></h3>
 							<p>Sept 2022 - Current</p>
 							<ul>
@@ -119,7 +128,6 @@ const AboutPage = () => (
 						</li>
 					</ul>
 				</div>
-				<CallCard>
 				<Rainbow className="svg"/>
 				<h2>Service</h2>
 					<ul>
@@ -134,7 +142,6 @@ const AboutPage = () => (
 							<p>Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Denver, Colorado area via meetup.</p>	
 						</li>
 					</ul>
-				</CallCard>
   </Layout>
 )
 
@@ -142,8 +149,8 @@ export const Head = () => <Seo title="About" />
 
 export default AboutPage
 
-const CallCard = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-`
+// const CallCard = styled.div`
+//   display: flex;
+//   justify-content: center;
+//   margin-top: 2rem;
+// `
