@@ -185,15 +185,41 @@ button.retro {
   right: 0.5rem;
 }
 
-.svg {
+.svg-one {
   height: 14rem;
   padding: 1rem;
   opacity: 0.7;
+  grid-area: svg-one;
 }
 
+.svg-two {
+  height: 14rem;
+  padding: 1rem;
+  opacity: 0.7;
+  grid-area: svg-two;
+}
+
+.svg-three {
+  height: 14rem;
+  padding: 1rem;
+  opacity: 0.7;
+  grid-area: svg-three;
+}
+
+.text-one {
+  grid-area: text-one;
+}
+
+.text-two {
+  grid-area: text-two;
+}
+
+.text-three {
+  grid-area: text-three;
+}
 
 .slider {
-  height: 22rem;
+  height: 31rem;
 }
 
 .caption {
@@ -201,7 +227,7 @@ button.retro {
 }
 
 .section-header {
-  padding: 1rem;
+  padding: 0.75rem;
 }
 
 .social-icons {

@@ -39,23 +39,25 @@ const IndexPage = ({ data }) => {
     <Layout>
       <div className="top-content">
         <div className="top-grid">
-          <Unicorn className="svg"/>
-          <h1>
+          <Unicorn className="svg-one"/>
+          <h1 className="text-one">
             Well hello there, have you <b>met me?</b>
           </h1>
-          <Diamond className="svg"/>
-          <h2>
+          <Diamond className="svg-two"/>
+          <h2 className="text-two">
             What if your next hire came with 28 years of <b>customer service</b> experience?
           </h2>
-          <Mission className="svg"/>
-          <h2>
+          <Mission className="svg-three"/>
+          <h2 className="text-three">
             What if that came wrapped with 16 years of <b>leadership,</b> 8 years of <b>project management</b> and 4 years of <b>web development</b> experience?
           </h2>
-          <Link to="/about">
-            <button className="repo-link"><b>Learn More</b></button>
-          </Link>
         </div>
-      </div>  
+      </div>
+      <div className="action-button">
+        <Link to="/about">
+          <button className="repo-link"><b>Learn More</b></button>
+        </Link>
+      </div>
       <div className="mid-content">
       <h3 className="section-header">Recent Blog Posts</h3>
         <div className="blog-posts">
