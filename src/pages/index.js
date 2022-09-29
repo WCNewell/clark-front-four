@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import Layout from "../components/layout"
+import IndexLayout from "../components/index-layout"
 import BlogList from "../components/blog-list"
 import Carousel from "../components/carousel"
 import Seo from "../components/seo"
@@ -36,7 +36,7 @@ export const RecentPostsQuery = graphql`
 const IndexPage = ({ data }) => {
   const posts = data.posts.nodes;
   return (
-    <Layout>
+    <IndexLayout>
       <div className="top-content">
         <div className="top-grid">
           <Unicorn className="svg-one"/>
@@ -71,7 +71,7 @@ const IndexPage = ({ data }) => {
         <h1 className="carousel-head">What Collaborators are Saying</h1>
         <Carousel />
       </div>
-    </Layout>
+    </IndexLayout>
   )
 }
 

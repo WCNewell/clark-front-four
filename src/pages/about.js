@@ -2,7 +2,7 @@ import * as React from "react"
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import styled from "styled-components"
+// import styled from "styled-components"
 import downLoadFile from '../assets/220418_Newell_William-Clark_Resume-Full.pdf';
 import Diploma from "../assets/diploma.inline.svg"
 import Rainbow from "../assets/rainbow-two.svg"
