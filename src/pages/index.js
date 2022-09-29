@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import IndexLayout from "../components/index-layout"
+import Layout from "../components/layout"
 import BlogList from "../components/blog-list"
 import Carousel from "../components/carousel"
 import Seo from "../components/seo"
@@ -36,29 +36,29 @@ export const RecentPostsQuery = graphql`
 const IndexPage = ({ data }) => {
   const posts = data.posts.nodes;
   return (
-    <IndexLayout>
-      <div className="top-content">
-        <div className="top-grid">
-          <Unicorn className="svg-one"/>
+    <Layout>
+      <section className="top-content">
+        <article className="top-grid">
+          <Unicorn alt="unicorn" className="svg-one"/>
           <h1 className="text-one">
             Well hello there, have you <b>met me?</b>
           </h1>
-          <Diamond className="svg-two"/>
+          <Diamond alt="diamond" className="svg-two"/>
           <h2 className="text-two">
             What if your next hire came with 28 years of <b>customer service</b> experience?
           </h2>
-          <Mission className="svg-three"/>
+          <Mission alt="mountain top" className="svg-three"/>
           <h2 className="text-three">
             What if that came wrapped with 16 years of <b>leadership,</b> 8 years of <b>project management</b> and 4 years of <b>web development</b> experience?
           </h2>
-        </div>
-      </div>
-      <div className="action-button">
+        </article>
+      </section>
+      <span className="action-button">
         <Link to="/about">
           <button className="repo-link"><b>Learn More</b></button>
         </Link>
-      </div>
-      <div className="mid-content">
+      </span>
+      <section className="mid-content">
       <h3 className="section-header">Recent Blog Posts</h3>
         <div className="blog-posts">
           <BlogList posts={posts} />
@@ -66,12 +66,12 @@ const IndexPage = ({ data }) => {
             <h3 className="blog-link" aria-label="see more posts">See more posts...</h3>
           </Link>
         </div>
-      </div>
-      <div className="bottom-content">
+      </section>
+      <section className="bottom-content">
         <h1 className="carousel-head">What Collaborators are Saying</h1>
         <Carousel />
-      </div>
-    </IndexLayout>
+      </section>
+    </Layout>
   )
 }
 

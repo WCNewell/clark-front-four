@@ -19,105 +19,35 @@ body {
   background-color: $black;
   transition: background-color 0.3s ease;
   color: $white;
+}
 
-  a {
-    color: $black;
-    text-decoration: none;
-    cursor: pointer;
-    text-shadow: none;
+a {
+  color: $pink;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: none;
 
-    :hover {
-      color: $pink;
-    }
+  :hover {
+    color: $pink;
   }
+}
 
-  .logo {
-      fill: $white;
-      height: 3.75rem;
-      width: 3.75rem;
-  }
-
-  .name {
-    margin-top: 0.25rem;  
-    color: $white;
-  }
+.resume {
+  color: $gold;
+}
   
-  .footer {
-    background-image: linear-gradient(to left, $pink, $blue, $black);
 
-    .footer-text {  
-      color: $pink;
-      padding: 1rem;
-    }
-    
-    .footer-link {
-      color: $white;
-      text-decoration: none;
-    }
-  }    
-} 
+.logo {
+    fill: $white;
+    height: 3.75rem;
+    width: 3.75rem;
+}
 
-// body.dark-mode {
-//   background-color: $black;
-//   color: $white;
-
-//   h1, h2, h4 {
-//     color: $white;
-//   }
-  
-//   a {
-//     color: $white;
-//     text-decoration: none;
-//     cursor: pointer;
-//     text-shadow: none;
-
-//     :hover {
-//       color: $pink;
-//     }
-//   }
-  
-//   .content, .content-items, .grid-one, .grid-two, .grid-three, .grid-four, .grid-five {
-//     background-color: $black;
-//     padding: 1rem;
-//     z-index: 1;
-//   }
-  
-//   .dark-link {
-//     color: $white;
-//     text-shadow: none;
-//   }
-
-//   .project-link {
-//     color: $white;
-//     text-shadow: none;
-//   }
-  
-//   .dark-header {
-//     color: $white;
-//   }
-
-//   .logo {
-//     fill: $white;
-//     height: 3.75rem;
-//     width: 3.75rem;
-//   }
-  
-//   .blog-link {
-//     color: $white;
-//     text-shadow: none;
-//   }
-
-//   .footer {
-//     background-image: linear-gradient(to right, $pink, $blue, $black);
-//     position: relative;
-
-//     .footer-text {
-//         color: $white;
-//         padding: 1rem;
-//     }
-//   }
-// }
-
+.name {
+  margin-top: 0.25rem;  
+  color: $white;
+}
+ 
 h1 {
   margin-top: 1rem;
   color: $white;
@@ -147,6 +77,11 @@ b {
 
 p {
   color: $black;
+}
+
+p.caption {
+  font-size: 16px;
+  color: $white;
 }
 
 img {
@@ -185,6 +120,13 @@ button.retro {
   right: 0.5rem;
 }
 
+.svg {
+  height: 14rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .svg-one {
   height: 14rem;
   padding: 1rem;
@@ -220,10 +162,6 @@ button.retro {
 
 .slider {
   height: 31rem;
-}
-
-.caption {
-  font-size: 14px;
 }
 
 .section-header {
@@ -320,10 +258,17 @@ button.repo-link {
   }
 }
 
-.footer-link {
-  text-shadow: none;
-}
+.footer {
+  background-image: linear-gradient(to left, $pink, $blue, $black);
 
-// .content .content-items .grid-one .grid-two .grid-three .grid-four {
-//   z-index: 1;
-// }
+  .footer-text {  
+    color: $pink;
+    padding: 1rem;
+  }
+  
+  .footer-link {
+    color: $white;
+    text-decoration: none;
+    text-shadow: none;
+  }
+}
