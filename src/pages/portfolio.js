@@ -2,8 +2,8 @@ import * as React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from 'gatsby-plugin-image';
 import Seo from "../components/seo"
-// import Planets from "../assets/planets.inline.svg"
-// import Stars from "../assets/star.inline.svg"
+import Planets from "../assets/planets.inline.svg"
+import Stars from "../assets/star.inline.svg"
 import Github from '../assets/github.inline.svg';
 
 const ClarkWebOne = () => {
