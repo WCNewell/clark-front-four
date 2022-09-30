@@ -29,8 +29,8 @@ const DryPeaks = () => {
 
 const AboutPage = () => (
   <Layout>
-		<section className="top-content">
-			<h1>about</h1>
+		<h1 className="page-title">about</h1>
+		<section className="grid-one">
 			<div>
 				<ClarkAlyeska />
 				<p className="caption">Hello World! I'm a founder and business owner, customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
@@ -39,9 +39,9 @@ const AboutPage = () => (
 			</div>
 		</section>		
 		<section className="mid-content">
-			{/* <div className="svg" >
+			<div className="svg" >
 				<Diploma alt="education" />
-			</div> */}
+			</div>
 			<div>
 				<ul>
 					<h3>Certified Associate Project Manager</h3>
@@ -62,9 +62,9 @@ const AboutPage = () => (
 					<p>Completed a liberal arts degree in music along with a German minor. Also intentionally completed multiple business, communication and marketing electives all while working full time as an administrator for the College of Engineering.</p>	
 				</ul>
 			</div>
-			{/* <div className="svg">
-				<StartUp />
-			</div> */}
+			<div className="svg">
+				<StartUp alt="start up rocket" />
+			</div>
 			<ul>
 				<div>
 				<a alt="dry peaks" href="https://www.drypeaks.com"><DryPeaks /></a>
@@ -131,13 +131,13 @@ const AboutPage = () => (
 			</ul>
 		</section>
 		<section className="bottom-content">
-			{/* <div className="svg">
-				<Rainbow />
-			</div> */}
+			<div className="svg">
+				<Rainbow alt="rainbow"/>
+			</div>
 			<h2>Service</h2>
 			<div>
 				<h3>Co-organizer</h3>
-				<h4 className="sevice">Queer Tech Utah</h4>
+				<h4 className="service">Queer Tech Utah</h4>
 				<p className="service">Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Salt Lake City, Utah area via meetup. Also chaired a Diversity and Inclusion discussion panel for the Silicon Slopes organization.</p>
 			</div>
 			<div>
