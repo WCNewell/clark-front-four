@@ -33,7 +33,7 @@ const AboutPage = () => (
 		<section className="grid-one">
 			<div>
 				<ClarkAlyeska />
-				<p className="caption">Hello World! I'm a founder and business owner, customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
+				<p className="caption">Hello World! I'm a business owner, customer service manager, web developer, outdoorsman, CrossFit athlete and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 				<h2>Goal</h2>
 				<p className="caption">To uplift your team, delight clients and solve problems as an Implementation Consultant, Project Manager or Web Developer. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack web development, and project management. <strong><a className="resume" alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 			</div>
@@ -68,10 +68,10 @@ const AboutPage = () => (
 			<ul>
 				<div>
 				<a alt="dry peaks" href="https://www.drypeaks.com"><DryPeaks /></a>
-					<h3>Founder and Business Owner</h3>
+					<h3>Business Owner</h3>
 					<p>Sept 2022 - Current</p>
 					<ul>
-						<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing of moisture wicking athleisure wear soon to be available via online store and other online outlets, e.g. Amazon, Etsy and Pintrest</li>
+						<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing of moisture wicking athleisure wear soon to be available via online store and other outlets, e.g. Amazon, Etsy and Pintrest</li>
 						<li>Principal Web Developer, managing a Shopify backend while building a custom React/GatsbyJS frontend</li>
 						<li>Lead Digital Marketing Manager, creating and running a digial marketing campaign on Instagram and TikTok</li>
 						<li>Personally pack and ship all orders, and in some cases personally manufacturing the product</li>
