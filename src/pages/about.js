@@ -50,7 +50,7 @@ const AboutPage = () => (
 						<h3>Certified Associate Project Manager</h3>
 						<h4>Project Management Institute, Feb 2022</h4>
 						<p>As member of 
-							<a href="https://www.pmi.org/"> PMI,</a> the global authority on project management best practices and producer of PMBOK, the Project Management Body of Knowledge, completed the CAPM online course and certification exam. <a className="dark-link" href="https://www.credly.com/badges/1cfcdd1d-6612-493e-9454-d4c76d8cbe53/public_url">View the Credly Badge.</a>	
+							<a href="https://www.pmi.org/"> PMI,</a> the global authority on project management best practices and producer of PMBOK, the Project Management Body of Knowledge, completed the CAPM online course and passed the certification exam on my first try with an "above target" rating. <a className="dark-link" href="https://www.credly.com/badges/1cfcdd1d-6612-493e-9454-d4c76d8cbe53/public_url">View the Credly Badge.</a>	
 						</p>
 					</ul>
 					<ul>

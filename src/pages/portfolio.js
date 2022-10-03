@@ -18,17 +18,19 @@ const ClarkWebOne = () => {
 
 const PortfolioPage = () => (
   <Layout>
-    <h1>portfolio</h1>
-    <div className="grid-one">
-					<ClarkWebOne />
-					<p className="caption">The first iteration of my personal website was created with an early version of Gatsby and a template from HTML5 UP.</p>
-				</div>	
-				<div className="grid-two">
-					<h2>Highlighted Projects</h2>
-				
-									{/* Clark Blog */}
+    <h1 className="page-title">portfolio</h1>
+    <section className="top-content">
+			<ClarkWebOne />
+			<p className="caption">The first iteration of drypeaks.com online clothing store is a custom gatsby front-end with a headless shopify backend.</p>
+		</section>	
+		<section className="mid-content">
+			<article className="mid-flow">
+			<div className="svg">
+					<Planets alt="planets" />
+				</div>
+					{/* drypeaks */}
 					<a href='/'>
-						<h3 className="project-link">Clark Blog</h3>
+						<h3 className="project-link">drypeaks online store</h3>
 					</a>
 					<p>Version 3.0 of my personal website presents the following features:</p>	
 					<ul>
@@ -71,8 +73,104 @@ const PortfolioPage = () => (
 							<p>View the code on Github</p>
 						</a>
 					</button>
-				</div>
-				<div className="grid-three">
+					
+					{/* Clark Blog 4.0 */}
+					<a href='/'>
+						<h3 className="project-link">clarknewell.tech 4.0</h3>
+					</a>
+					<p>Version 3.0 of my personal website presents the following features:</p>	
+					<ul>
+						<li>Built with
+							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
+								a frontend framework based on the opensource 
+							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
+							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling. This UI stems from the default starter</li>
+						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
+							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
+								with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Netlify also provides the honeypot and data transfer for the contact form</li>
+						<li>Custom backend and CMS (Content Management Studio) built with and hosted by
+							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
+						</li>
+						<li>
+							<a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
+							is implemented to traverse the Gatsby and Sanity APIs</li>
+						<li>
+							<a className="dark-link" aria-label="sass" href="https://sass-lang.com">Sass, </a> 
+							<a className="dark-link" aria-label="styled components" href="https://styled-components.com"> Styled Components, </a>
+							<a className="dark-link" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js, </a>
+							<a className="dark-link" aria-label="react syntax highlighter" href="https://www.npmjs.com/package/react-syntax-highlighter">React Syntax Highlighter, </a> 
+							and a custom responsive grid are implemented for CSS styling</li>
+						<li>Light and dark "star" modes are implemented with context and state management via React hooks, and the 
+							<a className="dark-link" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
+							plugin. P.S. The dark "star" mode is meant to be a whimsical gimmick and does not represent my idea of a serious, functional dark mode 😉 ✨
+						</li>
+						<li>Testing created with
+							<a className="dark-link" aria-label="jest" href="https://jestjs.io/"> Jest </a>
+						</li>
+						<li>Accessbility audit performed with
+							<a className="dark-link" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
+						</li>
+						<li>This solo project features custom self-designed logo/branding and original blog content</li>
+					</ul>
+					<p>Already in progress, the next iteration of my site will be rebuilt featuring an expanded portfolio and a more commercial feel and fuctionality.</p>
+					<button className="repo-link">	
+					<a href='https://github.com/WCNewell/clark-blog-gatsby'>
+						<Github className='portfolio-icon' alt='github icon' />
+							<p>View the code on Github</p>
+						</a>
+					</button>
+					
+									{/* Clark Blog 3.0 */}
+					<a href='/'>
+						<h3 className="project-link">clarknewell.tech 3.0</h3>
+					</a>
+					<p>Version 3.0 of my personal website presents the following features:</p>	
+					<ul>
+						<li>Built with
+							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
+								a frontend framework based on the opensource 
+							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
+							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling. This UI stems from the default starter</li>
+						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
+							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
+								with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Netlify also provides the honeypot and data transfer for the contact form</li>
+						<li>Custom backend and CMS (Content Management Studio) built with and hosted by
+							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
+						</li>
+						<li>
+							<a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
+							is implemented to traverse the Gatsby and Sanity APIs</li>
+						<li>
+							<a className="dark-link" aria-label="sass" href="https://sass-lang.com">Sass, </a> 
+							<a className="dark-link" aria-label="styled components" href="https://styled-components.com"> Styled Components, </a>
+							<a className="dark-link" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js, </a>
+							<a className="dark-link" aria-label="react syntax highlighter" href="https://www.npmjs.com/package/react-syntax-highlighter">React Syntax Highlighter, </a> 
+							and a custom responsive grid are implemented for CSS styling</li>
+						<li>Light and dark "star" modes are implemented with context and state management via React hooks, and the 
+							<a className="dark-link" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
+							plugin. P.S. The dark "star" mode is meant to be a whimsical gimmick and does not represent my idea of a serious, functional dark mode 😉 ✨
+						</li>
+						<li>Testing created with
+							<a className="dark-link" aria-label="jest" href="https://jestjs.io/"> Jest </a>
+						</li>
+						<li>Accessbility audit performed with
+							<a className="dark-link" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
+						</li>
+						<li>This solo project features custom self-designed logo/branding and original blog content</li>
+					</ul>
+					<p>Already in progress, the next iteration of my site will be rebuilt featuring an expanded portfolio and a more commercial feel and fuctionality.</p>
+					<button className="repo-link">	
+					<a href='https://github.com/WCNewell/clark-blog-gatsby'>
+						<Github className='portfolio-icon' alt='github icon' />
+							<p>View the code on Github</p>
+						</a>
+					</button>
+			</article>
+		</section>
+		<section className="bottom-content">
+			<div className="svg">
+					<Stars alt="stars" />
+				</div>	
 									{/* Clark's Slices */}
 					<a aria-label="clarks slices" href='https://clarks-slices.netlify.app/'>
 						<h3 className="project-link">Clark's Slices</h3>
@@ -107,7 +205,7 @@ const PortfolioPage = () => (
 							<p>View the code on Github</p>
 						</a>
 					</button>
-				</div>
+		</section>		
   </Layout>
 )
 
