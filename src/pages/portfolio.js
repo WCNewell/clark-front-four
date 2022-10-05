@@ -21,10 +21,10 @@ const PortfolioPage = () => (
 		<h1 className="page-title">portfolio</h1>
 		<section className="top-content">
 			<div>
-				<a href="https://www.drypeaks.com"><DryPeaks /></a>
+				<a alt="link to drypeaks online store" href="https://www.drypeaks.com"><DryPeaks /></a>
 				<p className="caption">The first interation of <a href="https://www.drypeaks.com">drypeaks</a> online athleisure store is a React/GatsbyJS frontend dual sourced from headless Shopify and headless Sanity.io backends.</p>
 				<h1>Purpose</h1>
-				<p className="caption">To drive the development of web and software projects that deliver value to the customer and the community at large, including <a href="https://www.drypeaks.com">drypeaks</a> online athleisure store and more! The purpose of this portfolio is to demontrate technical aptitude.</p>
+				<p className="caption">To drive the development of web and software projects that deliver value to the customer and the community at large, including <a href="https://www.drypeaks.com">drypeaks</a> online athleisure store and more! The purpose of this portfolio is to demontrate coding skills and all around technical aptitude.</p>
 			</div>
 		</section>
 		<section className="mid-content">
@@ -90,19 +90,19 @@ const PortfolioPage = () => (
 							and a custom responsive grid are implemented for CSS styling with a *mobile first* approach
 						</li>
 						<li>Artwork sourced from and credited to
-							<a className="dark-link" aria-label="flaticon" href="https://www.flaticon.com"> flaticon </a>
-						</li>
-						<li>Accessbility audit performed with
+							<a className="dark-link" aria-label="flaticon" href="https://www.flaticon.com"> flaticon </a>and accessbility audit performed with
 							<a className="dark-link" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
 						</li>
 						<li>This solo project features custom self-designed logo/branding and original blog content</li>
 					</ul>
-					<button className="repo-link">	
-					<a href="https://github.com/WCNewell/clark-front-four">
-						<Github className='portfolio-icon' alt='github icon' />
-							<p>View the code on Github</p>
-						</a>
-					</button>
+					<span className="button-box">
+						<button className="repo-link">	
+						<a href="https://github.com/WCNewell/clark-front-four">
+							<Github className='portfolio-icon' alt='github icon' />
+								<p>View the code on Github</p>
+							</a>
+						</button>
+					</span>
 				</div>
 				<div>
 																					{/* Clark Blog 3.0 */}
@@ -140,51 +140,59 @@ const PortfolioPage = () => (
 							<a className="dark-link" aria-label="wave" href="https://wave.webaim.org/"> WAVE</a>
 						</li>
 					</ul>
-					<button className="repo-link">	
-						<a href='https://github.com/WCNewell/clark-blog-gatsby'>
-						<Github className='portfolio-icon' alt='github icon' />
-							<p>View the code on Github</p>
-						</a>
-					</button>
+					<span className="button-box">
+						<button className="repo-link">	
+							<a href='https://github.com/WCNewell/clark-blog-gatsby'>
+							<Github className='portfolio-icon' alt='github icon' />
+								<p>View the code on Github</p>
+							</a>
+						</button>
+					</span>
 				</div>
-				<div>
+				<div className="svg">
 					<Stars alt="stars" />
 				</div>
 				<div>
 																			{/* Clark's Slices */}
 					<a aria-label="clarks slices" href='https://clarks-slices.netlify.app/'>
-							<h3 className="project-link">Clark's Slices</h3>
-						</a>
-						<p>Completed the entire Master-Gatsby course from Wes Bos and this is the resulting demo.</p>
+						<h3 className="project-link">Clark's Slices</h3>
+					</a>
+					<p>Completed the entire Master-Gatsby course from Wes Bos and this is the resulting demo.</p>
+					<span className="button-box">
 						<button className="repo-link">	
 							<a aria-label="github" href='https://github.com/WCNewell/master-gatsby'>
 								<Github className='portfolio-icon' alt='github icon' />
 								<p>View the code on Github</p>
 							</a>
 						</button>
-																			{/* Max Hamburger */}
-						<a aria-label="max hamburger" href='https://wcnewell.github.io/max-hamburger/'>
-							<h3 className="project-link">Max Hamburger</h3>
-						</a>
-						<p>Completed the entire Udemy React course from Maximilian Schwarzmueller and this is the resulting demo.</p>
+					</span>
+																		{/* Max Hamburger */}
+					<a aria-label="max hamburger" href='https://wcnewell.github.io/max-hamburger/'>
+						<h3 className="project-link">Max Hamburger</h3>
+					</a>
+					<p>Completed the entire Udemy React course from Maximilian Schwarzmueller and this is the resulting demo.</p>
+					<span className="button-box">
 						<button className="repo-link">	
 							<a aria-label="github" href='https://github.com/WCNewell/max-hamburger'>
 								<Github className='portfolio-icon' alt='github icon' />
 								<p>View the code on Github</p>
 							</a>
 						</button>
+					</span>
 					
 																			{/* Vuetiful Goals */}
-						<a aria-label="vuetiful goals" href='https://vuetiful-goals.firebaseapp.com/#/goals'>
-							<h3 className="project-link">Vuetiful Goals</h3>
-						</a>
-						<p>Very first CRUD (Create, Read, Update, Delete) application completed while at Galvanize using Vue.js.</p>
+					<a aria-label="vuetiful goals" href='https://vuetiful-goals.firebaseapp.com/#/goals'>
+						<h3 className="project-link">Vuetiful Goals</h3>
+					</a>
+					<p>Very first CRUD (Create, Read, Update, Delete) application completed while at Galvanize using Vue.js.</p>
+					<span className="button-box">
 						<button className="repo-link">	
 							<a aria-label="github" href='https://github.com/WCNewell/VuetifulGoals-client'>
 								<Github className='portfolio-icon' alt='github icon' />
 								<p>View the code on Github</p>
 							</a>
 						</button>
+					</span>
 				</div>
 			</article>
 		</section>

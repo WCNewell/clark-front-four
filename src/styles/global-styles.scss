@@ -234,9 +234,15 @@ button.retro {
     cursor: pointer;
 }  
 
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
 button.repo-link {
   margin-top: 2rem;
   width: 14rem;
+  margin-bottom: 2rem;
 
   p {
     color: $black;
@@ -260,6 +266,10 @@ button.repo-link {
   h4.send-link {
     color: $black;
   }
+}
+
+.egg-box {
+  margin-top: 50rem;
 }
 
 .footer {

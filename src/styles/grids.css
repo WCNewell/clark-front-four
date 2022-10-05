@@ -27,7 +27,7 @@
   }
 
   .page-title {
-    grid-column: col-start 2 / span 5;
+    grid-column: col-start 2 / span 11;
     grid-row: 2;
   }
   
