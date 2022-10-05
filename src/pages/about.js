@@ -72,7 +72,7 @@ const AboutPage = () => (
 						<h3>Business Owner</h3>
 						<p>Sept 2022 - Current</p>
 						<ul>
-							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing of moisture wicking athleisure wear soon to be available via online store and other outlets, e.g. Amazon, Etsy and Pintrest</li>
+							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing of moisture wicking athleisure soon to be available via online store and other outlets, e.g. Amazon, Etsy and Pintrest</li>
 							<li>Principal Web Developer, managing a Shopify backend while building a custom React/GatsbyJS frontend</li>
 							<li>Lead Digital Marketing Manager, creating and running a digial marketing campaign on Instagram and TikTok</li>
 							<li>Personally pack and ship all orders, and in some cases personally manufacturing the product</li>

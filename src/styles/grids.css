@@ -247,6 +247,12 @@
     padding: 1rem;
   }
 
+  .post-flow {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
   .bottom-content {
     grid-column: col-start 3 / span 7;
     margin-top: 2rem;

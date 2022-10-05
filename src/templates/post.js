@@ -40,7 +40,7 @@ const BlogPostTemplate = props => {
       {post && <Seo title={post.title || 'Untitled'} />}
       <h1 className="page-title">{post.title}</h1>      
       <section className="mid-content">
-        <article className="mid-flow">
+        <article className="post-flow">
         <h4>by {post.author.name}</h4>
         <p>{post.publishedAt}</p>
         {/* <ul>
