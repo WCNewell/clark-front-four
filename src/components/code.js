@@ -1,6 +1,6 @@
-import React from 'react';
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { paraisoDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import * as React from "react"
+import SyntaxHighlighter from "react-syntax-highlighter"
+import { paraisoDark } from "react-syntax-highlighter/dist/esm/styles/hljs"
 
 const Code = ({ node }) => {
   if (!node || !node.code ) { return null }
@@ -12,4 +12,4 @@ const Code = ({ node }) => {
   )
 }
 
-export default Code;
+export default Code
