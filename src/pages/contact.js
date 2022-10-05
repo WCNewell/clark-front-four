@@ -55,7 +55,7 @@ const ContactPage = () => (
     <section className="bottom-content">
       <div className="egg-box">
         <a alt="Gatsby Astronaut" href="https://www.gatsbyjs.com"><GatsbyAstronaut /></a>
-        <p className="caption">You found the "easter egg"! Hello from the OG Gatsby Spaceman. Image design by Gatsby.</p>
+        <p className="caption">You found the "easter egg." Hello from the OG Gatsby Spaceman! Image design by Gatsby.</p>
       </div>
     </section>
   </Layout>
