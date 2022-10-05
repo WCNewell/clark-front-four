@@ -23,7 +23,7 @@ const PortfolioPage = () => (
 			<div>
 				<a alt="link to drypeaks online store" href="https://www.drypeaks.com"><DryPeaks /></a>
 				<p className="caption">The first interation of <a href="https://www.drypeaks.com">drypeaks</a> online athleisure store is a React/GatsbyJS frontend dual sourced from headless Shopify and headless Sanity.io backends.</p>
-				<h1>Purpose</h1>
+				<h2>Purpose</h2>
 				<p className="caption">To drive the development of web and software projects that deliver value to the customer and the community at large, including <a href="https://www.drypeaks.com">drypeaks</a> online athleisure store and more! The purpose of this portfolio is to demontrate coding skills and all around technical aptitude.</p>
 			</div>
 		</section>
@@ -47,7 +47,7 @@ const PortfolioPage = () => (
 						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
 							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
 								with CI/CD (Continuous Integration and Continuous Deployment) via Github commits.</li>
-						<li>Custom backend and CMS (Content Management Studio) built with and hosted by
+						<li>Custom CMS (Content Management Studio) for blog content built with and hosted by
 							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
 						</li>
 						<li>
@@ -66,7 +66,7 @@ const PortfolioPage = () => (
 					</a>
 					<p>Version 4.0 of my personal website presents the following features:</p>	
 					<ul>
-						<li>Built with
+						<li>Custom website built with
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
 								a frontend framework based on the opensource 
 							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
@@ -76,7 +76,7 @@ const PortfolioPage = () => (
 							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
 							with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Netlify also provides the honeypot and data transfer for the contact form
 						</li>
-						<li>Custom backend and CMS (Content Management Studio) built with and hosted by
+						<li>Custom CMS (Content Management Studio) for blog content built with and hosted by
 							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
 						</li>
 						<li>
@@ -85,12 +85,15 @@ const PortfolioPage = () => (
 						</li>
 						<li>
 							<a className="dark-link" aria-label="sass" href="https://sass-lang.com">Sass, </a>
+							<a className="dark-link" aria-label="styled components" href="https://styled-components.com"> Styled Components, </a>
 							<a className="dark-link" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js, </a>
 							<a className="dark-link" aria-label="react syntax highlighter" href="https://www.npmjs.com/package/react-syntax-highlighter">React Syntax Highlighter, </a> 
 							and a custom responsive grid are implemented for CSS styling with a *mobile first* approach
 						</li>
 						<li>Artwork sourced from and credited to
-							<a className="dark-link" aria-label="flaticon" href="https://www.flaticon.com"> flaticon </a>and accessbility audit performed with
+							<a className="dark-link" aria-label="flaticon" href="https://www.flaticon.com"> flaticon </a>
+						</li>
+						<li>Accessbility audit performed with
 							<a className="dark-link" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
 						</li>
 						<li>This solo project features custom self-designed logo/branding and original blog content</li>
@@ -106,20 +109,17 @@ const PortfolioPage = () => (
 				</div>
 				<div>
 																					{/* Clark Blog 3.0 */}
-					<a href="">
+					<a href="https://gracious-hoover-8389b4.netlify.app/">
 						<h3 className="project-link">clarknewell.tech 3.0</h3>
 					</a>
 					<p>Version 3.0 of my personal website presents the following features:</p>	
 					<ul>
-						<li>Built with
+						<li>Custom website built with
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
 								a frontend framework based on the opensource 
 							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
-							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling. This UI stems from the default starter</li>
-						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
-							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
-								with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Netlify also provides the honeypot and data transfer for the contact form</li>
-						<li>Custom backend and CMS (Content Management Studio) built with and hosted by
+							library. This UI stems from the default starter</li>
+						<li>Custom CMS (Content Management Studio) for blog content built with and hosted by
 							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
 						</li>
 						<li>

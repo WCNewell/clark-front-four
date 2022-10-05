@@ -1,7 +1,6 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import styled from "styled-components"
+import * as React from "react"
+import { Link } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const SinglePost = ({ post }) => {
   const image = getImage(post.mainImage.asset.gatsbyImageData);
@@ -27,9 +26,4 @@ const SinglePost = ({ post }) => {
   );
 }
 
-export default SinglePost;
-
-const PostList = styled.div`
-  display: flex;
-  
-`
+export default SinglePost
