@@ -18,7 +18,7 @@ const ClarkAlyeska = () => {
 	)
 }
 
-const DryPeaks = () => {
+const DryPeaksLogo = () => {
 	return (
 		<StaticImage
 			src='../images/220923_dpName.jpg'
@@ -68,7 +68,7 @@ const AboutPage = () => (
 					<StartUp alt="start up rocket" />
 				</div>
 					<div>
-						<a alt="dry peaks" href="https://www.drypeaks.com"><DryPeaks /></a>
+						<a alt="dry peaks logo" href="https://www.drypeaks.com"><DryPeaksLogo /></a>
 						<h3>Business Owner</h3>
 						<p>Sept 2022 - Current</p>
 						<ul>
