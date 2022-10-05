@@ -9,7 +9,7 @@ const GatsbyAstronaut = () => {
     <StaticImage
       src='../images/gatsby-astronaut.png'
       className="astro-image"
-      alt="Gatsby Astronaut Logo"
+      alt="Gatsby Astronaut"
       placeholder="blurred"
     />
   )
@@ -54,7 +54,7 @@ const ContactPage = () => (
     </div>
     <section className="bottom-content">
       <div className="egg-box">
-        <GatsbyAstronaut />
+        <a alt="Gatsby Astronaut" href="https://www.gatsbyjs.com"><GatsbyAstronaut /></a>
         <p className="caption">You found the "easter egg"! Hello from the OG Gatsby Spaceman. Image design by Gatsby.</p>
       </div>
     </section>
