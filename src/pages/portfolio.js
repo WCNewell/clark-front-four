@@ -90,6 +90,10 @@ const PortfolioPage = () => (
 							<a className="dark-link" aria-label="react syntax highlighter" href="https://www.npmjs.com/package/react-syntax-highlighter">React Syntax Highlighter, </a> 
 							and a custom responsive grid are implemented for CSS styling with a *mobile first* approach
 						</li>
+						<li> 
+							<a className="dark-link" aria-label="pure react carousel" href="https://express-labs.github.io/pure-react-carousel"> Pure React Carousel by Express </a>
+							(yes, the clothing company) is implemented for the testimonial carousel
+						</li>
 						<li>Artwork sourced from and credited to
 							<a className="dark-link" aria-label="flaticon" href="https://www.flaticon.com"> flaticon </a>
 						</li>

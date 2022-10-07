@@ -34,7 +34,7 @@ export const RecentPostsQuery = graphql`
 `;
 
 const IndexPage = ({ data }) => {
-  const posts = data.posts.nodes;
+    const posts = data.posts.nodes;
   return (
     <Layout>
       <section className="top-content">
