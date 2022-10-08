@@ -69,10 +69,10 @@ const AboutPage = () => (
 				</div>
 					<div>
 						<a alt="dry peaks logo" href="https://www.drypeaks.com"><DryPeaksLogo /></a>
-						<h3>Business Owner</h3>
+						<h3>Founder and Business Owner</h3>
 						<p>Sept 2022 - Current</p>
 						<ul>
-							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing of moisture wicking athleisure soon to be available via online store and other outlets, e.g. Amazon, Etsy and Pintrest</li>
+							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing of moisture wicking sportswear soon to be available via online store and other outlets, e.g. Amazon, Etsy and Pintrest</li>
 							<li>Principal Web Developer, managing a Shopify backend while building a custom React/GatsbyJS frontend</li>
 							<li>Lead Digital Marketing Manager, creating and running a digial marketing campaign on Instagram and TikTok</li>
 							<li>Personally pack and ship all orders, and in some cases personally manufacturing the product</li>
@@ -103,6 +103,17 @@ const AboutPage = () => (
 						<LevelUp alt="level up" />
 					</div>
 					<div>
+						<h3 className>Administrative Assistant - University of Utah</h3>
+						<p>Dec 2007 - Jul 2014</p>
+						<ul>
+							<li>Former Assistant to the Director of the Center for Engineering Innovation in the Dept. of Electrical & Computer Engineering and Nanotechnology Institute of Utah</li>
+							<li>Coordinated the design and development of websites, social media, and marketing materials</li>
+							<li>Coordinated multiple submissions of multi-million dollar, interdisciplinary grant proposals to NIH, NSF and DARPA and was trained in pre- and post-award management by the University's Office of Research Administration</li>
+							<li>Organized and supervised special events and conferences including venue selection, catering, promotion, sponsorship, and media materials</li>
+							<li>Coordinated project and customer resource management using CRM tools such as Pipedrive and Zoho</li>
+						</ul>
+					</div>
+					<div>
 						<h3 className>Assistant Manager - Flynn Restaurant Group</h3>
 						<p>Jan 2016 - Nov 2016</p>
 						<ul>
@@ -121,17 +132,6 @@ const AboutPage = () => (
 							<li>Trained to become a subject matter expert in IRA direct rollovers and plan-to-plan transfers</li>
 						</ul>
 					</div>	
-					<div>
-						<h3 className>Administrative Assistant - University of Utah</h3>
-						<p>Dec 2007 - Jul 2014</p>
-						<ul>
-							<li>Former Assistant to the Director of the Center for Engineering Innovation in the Dept. of Electrical & Computer Engineering and Nanotechnology Institute of Utah</li>
-							<li>Coordinated the design and development of websites, social media, and marketing materials</li>
-							<li>Coordinated multiple submissions of multi-million dollar, interdisciplinary grant proposals to NIH, NSF and DARPA and was trained in pre- and post-award management by the University's Office of Research Administration</li>
-							<li>Organized and supervised special events and conferences including venue selection, catering, promotion, sponsorship, and media materials</li>
-							<li>Coordinated project and customer resource management using CRM tools such as Pipedrive and Zoho</li>
-						</ul>
-					</div>
 			</article>
 		</section>
 		<section className="bottom-content">
