@@ -22,9 +22,9 @@ const PortfolioPage = () => (
 		<section className="top-content">
 			<div>
 				<a alt="link to drypeaks online store" href="https://www.drypeaks.com"><DryPeaks /></a>
-				<p className="caption">The first interation of <a href="https://www.drypeaks.com">drypeaks</a> sportswear is a React/GatsbyJS frontend dual sourced from headless Shopify and headless Sanity.io backends.</p>
+				<p className="caption">The first interation of <a href="https://www.drypeaks.com">drypeaks</a> sportswear is a React/GatsbyJS frontend dual sourced from headless Shopify and headless Sanity.io backends. This website is currently under development with a soft launch targeted for December 2022.</p>
 				<h2>Purpose</h2>
-				<p className="caption">To drive the development of web and software projects that deliver value to the customer and the community at large, including <a href="https://www.drypeaks.com">drypeaks</a> sportswear and more! The purpose of this portfolio is to demontrate coding skills and all around technical aptitude.</p>
+				<p className="caption">To drive the development of web and social media projects that deliver value to the customer and the community at large, including <a href="https://www.drypeaks.com">drypeaks</a> sportswear and more! The purpose of this portfolio is to demontrate coding skills and all around technical aptitude.</p>
 			</div>
 		</section>
 		<section className="mid-content">
@@ -52,12 +52,12 @@ const PortfolioPage = () => (
 						</li>
 						<li>
 							<a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
-							is implemented to traverse the Gatsby and Sanity APIs</li>
+							is implemented to traverse Gatsby, Shopify and Sanity APIs</li>
 						<li>
 							<a href="https://www.shopify.com/plus/solutions/headless-commerce">Headless Shopify</a> 
 						</li>	
 					</ul>
-					<p>There is no link to the GitHub repo because this is a private, commercial endeavor</p>
+					<p>This website and corresponding product are currently under development with a soft launch planned for December 2022. There is no link to the GitHub repo because this is a private, commercial endeavor</p>
 				</div>
 				<div>
 																					{/* Clark Blog 3.0 */}

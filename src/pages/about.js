@@ -37,7 +37,7 @@ const AboutPage = () => (
 				<ClarkAlyeska />
 				<p className="caption">Hello World! I'm a business owner, customer service manager, web developer, outdoorsman, CrossFit athlete and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 				<h2>Goal</h2>
-				<p className="caption">To uplift your team, delight clients and solve problems as an Implementation Consultant, Project Manager or Web Developer. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack web development, and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
+				<p className="caption">To uplift your team, delight clients and solve problems as an Marketing Project Manager and Web Developer. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack web development, and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 			</div>
 		</section>		
 		<section className="mid-content">
@@ -74,8 +74,8 @@ const AboutPage = () => (
 						<ul>
 							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing of moisture wicking sportswear soon to be available via online store and other outlets, e.g. Amazon, Etsy and Pintrest</li>
 							<li>Principal Web Developer, managing a Shopify backend while building a custom React/GatsbyJS frontend</li>
-							<li>Lead Digital Marketing Manager, creating and running a digial marketing campaign on Instagram and TikTok</li>
-							<li>Personally pack and ship all orders, and in some cases personally manufacturing the product</li>
+							<li>Lead Digital Marketing Manager, creating and running a digial marketing campaign on Instagram and TikTok and creating original blog content</li>
+							<li>Personally pack and ship all orders, and personally manufacturing the prototype products</li>
 						</ul>
 					</div>
 					<div>
