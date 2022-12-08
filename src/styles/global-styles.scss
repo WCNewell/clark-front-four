@@ -32,6 +32,10 @@ a {
   }
 }
 
+a.drypeaks {
+  text-decoration:none !important;
+}
+
 .logo {
     fill: $white;
     height: 3.75rem;
@@ -221,6 +225,10 @@ button.retro {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+}
+
+.drypeaks {
+  text-decoration: none !important;
 }
 
 .form-input {

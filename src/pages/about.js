@@ -21,7 +21,7 @@ const ClarkAlyeska = () => {
 const DryPeaksLogo = () => {
 	return (
 		<StaticImage
-			src='../images/220923_dpName.jpg'
+			src='../images/221115_drypeaksFont.png'
 			alt="Dry Peaks Logo"
 			placeholder="blurred"
 			width={300}
@@ -68,8 +68,10 @@ const AboutPage = () => (
 					<StartUp alt="start up rocket" />
 				</div>
 					<div>
-						<a alt="dry peaks logo" href="https://www.drypeaks.com"><DryPeaksLogo /></a>
-						<h3>Founder and Business Owner</h3>
+						<div>
+							<DryPeaksLogo />
+						</div>
+						<a href="https://www.drypeaks.com"><h3>Founder and Business Owner</h3></a>
 						<p>Sept 2022 - Current</p>
 						<ul>
 							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing of moisture wicking sportswear soon to be available via online store and other outlets, e.g. Amazon, Etsy and Pintrest</li>

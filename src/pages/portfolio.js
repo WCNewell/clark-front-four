@@ -9,7 +9,7 @@ import Github from '../assets/github.inline.svg'
 const DryPeaks = () => {
 	return (
 		<StaticImage
-			src="../images/221004_dp-homepage_lg.jpg"
+			src="../images/221207_DryPeaksLandingPage.JPG"
 			alt="Dry Peaks Homepage"
 			placeholder="blurred"
 		/>
