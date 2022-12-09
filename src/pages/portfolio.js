@@ -12,7 +12,7 @@ const DryPeaks = () => {
 			src="../images/221207_DryPeaksLandingPage.jpg"
 			alt="Dry Peaks Homepage"
 			placeholder="blurred"
-			width={1500}
+			// width={1500}
 		/>
 	)
 }
