@@ -74,10 +74,11 @@ const AboutPage = () => (
 						<a href="https://www.drypeaks.com"><h3>Founder and Business Owner</h3></a>
 						<p>Sept 2022 - Current</p>
 						<ul>
-							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing of moisture wicking sportswear soon to be available via online store and other outlets, e.g. Amazon, Etsy and Pintrest</li>
+							<li>Currently as sole proprietor and "solopreneur", wear ALL the hats while directing the design and manufacturing of moisture wicking sportswear soon to be available via <a href="https://www.drypeaks.com">online store</a> and other outlets, e.g. Amazon, Etsy or Pintrest</li>
 							<li>Principal Web Developer, managing a Shopify backend while building a custom React/GatsbyJS frontend</li>
-							<li>Lead Digital Marketing Manager, creating and running a digial marketing campaign on Instagram and TikTok and creating original blog content</li>
-							<li>Personally pack and ship all orders, and personally manufacturing the prototype products</li>
+							<li>Lead Digital Marketing Manager, Photographer and Graphic Designer creating and running a digial marketing campaign on Instagram and TikTok while creating original blog content</li>
+							<li>Personally pack and ship all orders, and personally manufacturing prototype products</li>
+							<li>I am looking for collaborators and business partners, so please feel free to <a href="/contact">contact me</a></li>
 						</ul>
 					</div>
 					<div>

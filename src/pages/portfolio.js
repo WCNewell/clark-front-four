@@ -9,9 +9,10 @@ import Github from '../assets/github.inline.svg'
 const DryPeaks = () => {
 	return (
 		<StaticImage
-			src="../images/221207_DryPeaksLandingPage.JPG"
+			src="../images/221207_DryPeaksLandingPage.jpg"
 			alt="Dry Peaks Homepage"
 			placeholder="blurred"
+			width={1500}
 		/>
 	)
 }
@@ -22,7 +23,7 @@ const PortfolioPage = () => (
 		<section className="top-content">
 			<div>
 				<a alt="link to drypeaks online store" href="https://www.drypeaks.com"><DryPeaks /></a>
-				<p className="caption">The first interation of <a href="https://www.drypeaks.com">drypeaks</a> sportswear is a React/GatsbyJS frontend dual sourced from headless Shopify and headless Sanity.io backends. This website is currently under development with a soft launch targeted for December 2022.</p>
+				<p className="caption">The first interation of <a href="https://www.drypeaks.com">drypeaks</a> sportswear is a React/GatsbyJS frontend dual sourced from headless Shopify and Sanity.io backends. This website is currently under development with a soft launch targeted for December 2022.</p>
 				<h2>Purpose</h2>
 				<p className="caption">To drive the development of web and social media projects that deliver value to the customer and the community at large, including <a href="https://www.drypeaks.com">drypeaks</a> sportswear and more! The purpose of this portfolio is to demonstrate project management, digital marketing and coding skills as well as all around technical aptitude.</p>
 			</div>
