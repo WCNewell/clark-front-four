@@ -35,7 +35,7 @@ const AboutPage = () => (
 		<section className="top-content">
 			<div>
 				<ClarkAlyeska />
-				<p className="caption">Hello World! I'm a business owner, customer service manager, web developer, avid outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
+				<p className="image-caption">Hello World! I'm a business owner, customer service manager, web developer, avid outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 				<h2>Goal</h2>
 				<p className="caption">To uplift your team, delight clients and solve problems as an Project Manager and/or Web Developer. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack web development, and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 			</div>
@@ -68,7 +68,7 @@ const AboutPage = () => (
 					<StartUp alt="start up rocket" />
 				</div>
 					<div>
-						<div>
+						<div className="drypeakslogo">
 							<DryPeaksLogo />
 						</div>
 						<a href="https://www.drypeaks.com"><h3>Founder and Business Owner</h3></a>
