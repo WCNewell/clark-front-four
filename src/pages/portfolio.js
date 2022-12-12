@@ -23,7 +23,7 @@ const PortfolioPage = () => (
 		<section className="top-content">
 			<div>
 				<a alt="link to drypeaks online store" href="https://www.drypeaks.com"><DryPeaks /></a>
-				<p className="image-caption">The first interation of <a href="https://www.drypeaks.com">drypeaks</a> sportswear's online store is a React/GatsbyJS frontend dual sourced from headless Shopify and Sanity.io backends.</p>
+				<p className="image-caption">The first iteration of <a href="https://www.drypeaks.com">drypeaks</a> sportswear's online store is a React/GatsbyJS frontend dual sourced from headless Shopify and Sanity.io backends.</p>
 				<h2>Purpose</h2>
 				<p className="caption">To drive the development of web/software and social media projects that deliver value to the customer and the community at large, including <a href="https://www.drypeaks.com">drypeaks</a> sportswear and more!</p>
 			</div>
