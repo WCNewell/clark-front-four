@@ -38,7 +38,7 @@ const PortfolioPage = () => (
 					<a href="https://www.drypeaks.com">
 						<h3 className="project-link">drypeaks sportswear</h3>
 					</a>
-					<p>Version 1.0 of drypeaks sportwear's online store presents the following features:</p>	
+					<p>Version 1.0 of drypeaks sportswear's online store presents the following features:</p>	
 					<ul>
 						<li>Built with
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
