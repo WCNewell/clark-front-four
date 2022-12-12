@@ -11,7 +11,7 @@ import Rainbow from "../assets/rainbow-two.svg"
 const ClarkAlyeska = () => {
   return (
 		<StaticImage
-			src='../images/ClarkAlyeska.jpg'
+			src='../images/IMG_2776-Edited.jpg'
 			alt="Clark Newell at Alyeska Ski Resort"
 			placeholder="blurred"
 		/>
