@@ -2,7 +2,7 @@ import * as React from "react"
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import downLoadFile from '../assets/220929_Newell_William-Clark_Resume-Full.pdf'
+import downLoadFile from '../assets/230118_Newell_William-Clark_Resume-Full.pdf'
 import Diploma from "../assets/diploma.inline.svg"
 import StartUp from '../assets/start-up.inline.svg'
 import LevelUp from '../assets/level.inline.svg'
@@ -37,7 +37,7 @@ const AboutPage = () => (
 				<ClarkAlyeska />
 				<p className="image-caption">Hello World! I'm a business owner, customer service manager, web developer, avid outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 				<h2>Goal</h2>
-				<p className="caption">To uplift your team, delight clients and solve problems as a Project Manager and/or Web Developer. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack web development, and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
+				<p className="caption">To uplift and coach your team and delight clients as a Scrum Master, Project Manager or Web Developer. Highlighted skills include customer relations, team management, project management, agile and scrum methodology, JavaScript, HTML, CSS, React, and full stack web development. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 			</div>
 		</section>		
 		<section className="mid-content">
@@ -47,6 +47,13 @@ const AboutPage = () => (
 				</div>
 				<div>
 					<ul>
+						<h3>Certified Scrum Master</h3>
+						<h4>Six Sigma Global Institute, Jan 2023</h4>
+						<p>
+							Successfully completed and passed the <a href="https://www.6sigmacertificationonline.com/">Six Sigma Global Institute's </a>Scrum Qualified Scrum Master Certification training program and certification exam. <a href="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/66546310">View the Accredible Badge.</a>
+						</p>
+					</ul>
+					<ul>
 						<h3>Certified Associate Project Manager</h3>
 						<h4>Project Management Institute, Feb 2022</h4>
 						<p>As member of 
@@ -54,7 +61,7 @@ const AboutPage = () => (
 						</p>
 					</ul>
 					<ul>
-						<h3>Web Development Immersive Certificate</h3>
+						<h3>Certified Web Development Immersive</h3>
 						<h4>Galvanize + Hack Reactor, Jul 2018</h4>
 						<p><a href="https://www.galvanize.com/"> Galvanize,</a> in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
 					</ul>
@@ -74,10 +81,11 @@ const AboutPage = () => (
 						<a href="https://www.drypeaks.com"><h3>Founder and Business Owner</h3></a>
 						<p>Sept 2022 - Current</p>
 						<ul>
-							<li>Currently as sole proprietor and "solopreneur", wear ALL the hats while directing the design and manufacturing of moisture wicking sportswear soon to be available via <a href="https://www.drypeaks.com">online store</a> and other outlets, e.g. Amazon, Etsy or Pintrest</li>
-							<li>Principal Web Developer, managing a Shopify backend while building a custom React/GatsbyJS frontend</li>
+							<li>Currently as sole proprietor and "solopreneur", wear ALL the hats while directing the design and manufacturing of moisture wicking sportswear available via <a href="https://www.drypeaks.com">online store.</a></li>
+							<li>Principal Web Developer, manage PIM and CMS backends (currently migrating from Shopify and Sanity.io to Crystallize) while building a custom React frontend (currently migrating from Gatsby to Remix)</li>
 							<li>Lead Digital Marketing Manager, Photographer and Graphic Designer creating and running a digial marketing campaign on Instagram and TikTok while creating original blog content</li>
-							<li>Personally pack and ship all orders, and personally manufacturing prototype products</li>
+							<li>Personally pack and ship all orders, and manufacture prototype products</li>
+							<li>Oversee business licenses, finances, taxes and trademark applications</li>
 							<li>I am looking for collaborators and business partners, so please feel free to <a href="/contact">contact me</a></li>
 						</ul>
 					</div>
