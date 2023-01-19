@@ -3,8 +3,9 @@ import styled from 'styled-components';
 
 import LinkedIn from '../assets/linkedin.inline.svg';
 import Github from '../assets/github.inline.svg';
+import Twitter from '../assets/twitter.inline.svg';
 import Instagram from '../assets/instagram.inline.svg';
-import TikTok from '../assets/tiktok.inline.svg'
+import TikTok from '../assets/tiktok.inline.svg';
 
 const Footer = () => {
   return (
@@ -22,11 +23,14 @@ const Footer = () => {
               <a href='https://github.com/WCNewell' aria-label="github">
                   <Github className='social-icons' alt='github icon'/>
               </a>
+              <a href='https://twitter.com/@WCNewell' aria-label="twitter">
+                  <Twitter className='social-icons' alt='twitter icon'/>
+              </a>
               <a href='https://instagram.com/mtn_clark/' aria-label="instagram">
                   <Instagram className='social-icons' alt='instagram icon'/>
               </a>
               <a href='https://tiktok.com/@mtn_clark' aria-label="tiktok">
-                  <TikTok className='tiktok-icon' alt='tiktok icon'/>
+                  <TikTok className='social-icons' alt='tiktok icon'/>
               </a>
             </IconBox>
         </div>

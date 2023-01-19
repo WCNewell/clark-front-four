@@ -87,7 +87,7 @@ p {
 }
 
 p.caption {
-  font-size: 18px;
+  font-size: 17px;
   color: $white;
 }
 
@@ -97,9 +97,8 @@ p.image-caption {
 }
 
 p.service {
-  color: white;
+  color: $white;
 }
-
 
 li {
   color: $black;
@@ -197,16 +196,16 @@ button.retro {
   }
 }
 
-.tiktok-icon {
-  height: 2.3rem;
-  width: 2.3rem;
-  cursor: pointer;
-  margin-bottom: 1rem;
-  @media screen and (min-width: 860px) {
-    margin-left: 0.7rem;
-    margin-right: 1.5rem;
-  }
-}
+// .tiktok-icon {
+//   height: 2.3rem;
+//   width: 2.3rem;
+//   cursor: pointer;
+//   margin-bottom: 1rem;
+//   @media screen and (min-width: 860px) {
+//     margin-left: 0.7rem;
+//     margin-right: 1.5rem;
+//   }
+// }
 
 .menu-icons {
   fill: $pink;
@@ -294,7 +293,9 @@ button.repo-link {
 
   .footer-text {  
     color: $pink;
+    font-size: 15px;
     padding: 1rem;
+    margin-left: 2rem;
   }
   
   .footer-link {

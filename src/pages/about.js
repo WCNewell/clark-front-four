@@ -35,9 +35,10 @@ const AboutPage = () => (
 		<section className="top-content">
 			<div>
 				<ClarkAlyeska />
-				<p className="image-caption">Hello World! I'm a business owner, customer service manager, web developer, avid outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
+				<p className="image-caption">Hello World! I'm a business owner, customer service manager, web developer, outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 				<h2>Goal</h2>
-				<p className="caption">To uplift and coach your team and delight clients as a Scrum Master, Project Manager or Web Developer. Highlighted skills include customer relations, team management, project management, agile and scrum methodology, JavaScript, HTML, CSS, React, and full stack web development. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
+				<p className="caption">To uplift and coach your team while delighting clients as a Scrum Master, Project Manager or Web Developer.
+				<strong><a alt="link to download pdf resume" href={downLoadFile} download> Download My Resume.</a></strong></p>
 			</div>
 		</section>		
 		<section className="mid-content">
@@ -50,20 +51,20 @@ const AboutPage = () => (
 						<h3>Certified Scrum Master</h3>
 						<h4>Six Sigma Global Institute, Jan 2023</h4>
 						<p>
-							Successfully completed and passed the <a href="https://www.6sigmacertificationonline.com/">Six Sigma Global Institute's </a>Scrum Qualified Scrum Master Certification training program and certification exam. <a href="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/66546310">View the Accredible Badge.</a>
+							Successfully completed and passed the <a href="https://www.6sigmacertificationonline.com/">Six Sigma Global Institute's </a>Scrum Master Certification training program and certification exam. <a href="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/66546310">View the Accredible Badge.</a>
 						</p>
 					</ul>
 					<ul>
 						<h3>Certified Associate Project Manager</h3>
 						<h4>Project Management Institute, Feb 2022</h4>
 						<p>As member of 
-							<a href="https://www.pmi.org/"> PMI,</a> the global authority on project management best practices and producer of PMBOK, the Project Management Body of Knowledge, completed the CAPM online course and passed the certification exam on my first try with an "above target" rating. <a className="dark-link" href="https://www.credly.com/badges/1cfcdd1d-6612-493e-9454-d4c76d8cbe53/public_url">View the Credly Badge.</a>	
+							<a href="https://www.pmi.org/"> PMI,</a> the global authority on project management best practices and producer of PMBOK, the Project Management Body of Knowledge, completed the CAPM online course and certification exam. <a className="dark-link" href="https://www.credly.com/badges/1cfcdd1d-6612-493e-9454-d4c76d8cbe53/public_url">View the Credly Badge.</a>	
 						</p>
 					</ul>
 					<ul>
 						<h3>Certified Web Development Immersive</h3>
 						<h4>Galvanize + Hack Reactor, Jul 2018</h4>
-						<p><a href="https://www.galvanize.com/"> Galvanize,</a> in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
+						<p><a href="https://www.galvanize.com/"> Galvanize,</a> in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, including front-end frameworks, building back-end databases with API CRUD connectivity, pair programming, and agile workflow.</p>	
 					</ul>
 					<ul>
 						<h3>Bachelor of Arts in Music, German Minor</h3>
@@ -81,7 +82,7 @@ const AboutPage = () => (
 						<a href="https://www.drypeaks.com"><h3>Founder and Business Owner</h3></a>
 						<p>Sept 2022 - Current</p>
 						<ul>
-							<li>Currently as sole proprietor and "solopreneur", wear ALL the hats while directing the design and manufacturing of moisture wicking sportswear available via <a href="https://www.drypeaks.com">online store.</a></li>
+							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing and sales of moisture wicking sportswear available via <a href="https://www.drypeaks.com">online store.</a></li>
 							<li>Principal Web Developer, manage PIM and CMS backends (currently migrating from Shopify and Sanity.io to Crystallize) while building a custom React frontend (currently migrating from Gatsby to Remix)</li>
 							<li>Lead Digital Marketing Manager, Photographer and Graphic Designer creating and running a digial marketing campaign on Instagram and TikTok while creating original blog content</li>
 							<li>Personally pack and ship all orders, and manufacture prototype products</li>
@@ -124,7 +125,7 @@ const AboutPage = () => (
 							<li>Coordinated project and customer resource management using CRM tools such as Pipedrive and Zoho</li>
 						</ul>
 					</div>
-					<div>
+					{/* <div>
 						<h3 className>Assistant Manager - Flynn Restaurant Group</h3>
 						<p>Jan 2016 - Nov 2016</p>
 						<ul>
@@ -142,7 +143,7 @@ const AboutPage = () => (
 							<li>Monitored, researched, adjusted and cleared outstanding items in all suspense accounts</li>
 							<li>Trained to become a subject matter expert in IRA direct rollovers and plan-to-plan transfers</li>
 						</ul>
-					</div>	
+					</div>	 */}
 			</article>
 		</section>
 		<section className="bottom-content">

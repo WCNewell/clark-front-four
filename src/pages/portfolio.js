@@ -26,7 +26,7 @@ const PortfolioPage = () => (
 				<a alt="link to drypeaks online store" href="https://www.drypeaks.com"><DryPeaks /></a>
 				<p className="image-caption">The first iteration of <a href="https://www.drypeaks.com">Dry Peaks</a> sportswear's online store is a React/GatsbyJS frontend dual sourced from headless Shopify and Sanity.io backends.</p>
 				<h2>Purpose</h2>
-				<p className="caption">To drive the development of web/software and social media projects that deliver value to the customer and the community at large, including <a href="https://www.drypeaks.com">Dry Peaks</a> Sportswear and more!</p>
+				<p className="caption">To drive the development of web/software and social media projects that deliver value to the customer and the community at large.</p>
 			</div>
 		</section>
 		<section className="mid-content">
@@ -57,7 +57,7 @@ const PortfolioPage = () => (
 							<a className="dark-link" aria-label="tailwind css" href="https://tailwindcss.com">Tailwind CSS </a>
 							is implemented for CSS styling
 						</li>
-						<li>Original photography and graphic design enhanced by or created with Adobe Photoshop, Lightroom and Illustrator by yours truly</li>
+						<li>Original photography and graphic design enhanced by or created with Adobe Photoshop, Lightroom and Illustrator</li>
 					</ul>
 					<p>There is no link to the GitHub repo because this is a private, commercial endeavor</p>
 				</div>
@@ -66,7 +66,7 @@ const PortfolioPage = () => (
 					<a href="https://www.drypeaks.com">
 						<h3 className="project-link">Dry Peaks Sportswear 1.0</h3>
 					</a>
-					<p>Version 1.0 of Dry Peaks Sportswear's online store presents the following features:</p>	
+					<p>Version 1.0 (launched) of Dry Peaks Sportswear's online store presents the following features:</p>	
 					<ul>
 						<li>Built with
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
@@ -83,7 +83,7 @@ const PortfolioPage = () => (
 							<a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
 							is implemented to traverse Gatsby, Shopify and Sanity APIs
 						</li>
-						<li>Original photography and graphic design enhanced by or created with Adobe Photoshop, Lightroom and Illustrator by yours truly</li>
+						<li>Original photography and graphic design enhanced by or created with Adobe Photoshop, Lightroom and Illustrator</li>
 						<li>
 							<a href="https://www.shopify.com/plus/solutions/headless-commerce">Headless Shopify</a> 
 						</li>	
@@ -108,14 +108,8 @@ const PortfolioPage = () => (
 						</li>
 						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
 							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
-							with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Netlify also provides the honeypot and data transfer for the contact form
-						</li>
-						<li>Custom CMS (Content Management Studio) for blog content built with and hosted by
-							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
-						</li>
-						<li>
-							<a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
-							is implemented to traverse the Gatsby and Sanity APIs
+							with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Custom CMS (Content Management Studio) for blog content built with and hosted by
+							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a> Gatsby and Sanity APIs are traversed by <a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
 						</li>
 						<li>
 							<a className="dark-link" aria-label="sass" href="https://sass-lang.com">Sass, </a>
@@ -128,13 +122,9 @@ const PortfolioPage = () => (
 							<a className="dark-link" aria-label="pure react carousel" href="https://express-labs.github.io/pure-react-carousel"> Pure React Carousel by Express </a>
 							(yes, the clothing company) is implemented for the testimonial carousel
 						</li>
-						<li>Artwork sourced from and credited to
+						<li>This website features self-designed logo and original blog content. Artwork sourced from
 							<a className="dark-link" aria-label="flaticon" href="https://www.flaticon.com"> flaticon </a>
 						</li>
-						<li>Accessbility audit performed with
-							<a className="dark-link" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
-						</li>
-						<li>This solo project features custom self-designed logo/branding and original blog content</li>
 					</ul>
 					<span className="button-box">
 						<button className="repo-link">	
@@ -152,11 +142,12 @@ const PortfolioPage = () => (
 					</a>
 					<p>Version 3.0 of my personal website presents the following features:</p>	
 					<ul>
-						<li>Custom website built with
+					<li>Custom website built with
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
 								a frontend framework based on the opensource 
 							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
-							library. This UI stems from the default starter</li>
+							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling. This UI stems from the default starter
+						</li>
 						<li>Custom CMS (Content Management Studio) for blog content built with and hosted by
 							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
 						</li>
@@ -218,7 +209,7 @@ const PortfolioPage = () => (
 						</button>
 					</span>
 					
-																			{/* Vuetiful Goals */}
+																			{/* Vuetiful Goals
 					<a aria-label="vuetiful goals" href='https://vuetiful-goals.firebaseapp.com/#/goals'>
 						<h3 className="project-link">Vuetiful Goals</h3>
 					</a>
@@ -230,7 +221,7 @@ const PortfolioPage = () => (
 								<p>View the code on Github</p>
 							</a>
 						</button>
-					</span>
+					</span> */}
 				</div>
 			</article>
 		</section>
