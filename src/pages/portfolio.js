@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Seo from "../components/seo"
 import Planets from "../assets/planets.inline.svg"
 import LevelUp from "../assets/leveluptwo.inline.svg"
-import Stars from "../assets/socialmedia.inline.svg"
+import Social from "../assets/socialmedia.inline.svg"
 import Github from '../assets/github.inline.svg'
 
 const DryPeaks = () => {
@@ -35,6 +35,35 @@ const PortfolioPage = () => (
 					<Planets alt="planets" />
 				</div>
 				<div>
+																				{/* drypeaks 1.0*/}
+					<a href="https://www.drypeaks.com">
+						<h3 className="project-link">Dry Peaks Sportswear 1.0</h3>
+					</a>
+					<p>Version 1.0 of Dry Peaks Sportswear's online store is launched and live so please buy a headband! 😅 and check out the following features:</p>	
+					<ul>
+						<li>Built with
+							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
+								a frontend framework based on the opensource 
+							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
+							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling. This UI stems from the Gatsby Shopify Starter</li>
+						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
+							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
+								with CI/CD (Continuous Integration and Continuous Deployment) via Github commits</li>
+						<li>Custom CMS (Content Management Studio) for blog content built with and hosted by
+							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
+						</li>
+						<li>
+							<a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
+							is implemented to traverse Gatsby, Shopify and Sanity APIs
+						</li>
+						<li>
+							<a href="https://www.shopify.com/plus/solutions/headless-commerce">Headless Shopify</a> provides the PIM (Product Information Management), check out payment, and shipping features
+						</li>
+						<li>Original photography and graphic design enhanced by or created with Adobe Photoshop, Lightroom and Illustrator</li>	
+					</ul>
+					<p>There is no link to the GitHub repo because this is a private, commercial endeavor</p>
+				</div>
+				<div>
 																					{/* drypeaks 2.0*/}
 					<a href="">
 						<h3 className="project-link">Dry Peaks Sportswear 2.0</h3>
@@ -46,95 +75,27 @@ const PortfolioPage = () => (
 								a full stack web framework based on the opensource 
 							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
 							library. This UI is based on the Remix boilerplate from 
-							<a className="dark-link" aria-label="crystallize" href="https://crystallize.com"> Crystallize.</a>
+							<a className="dark-link" aria-label="crystallize" href="https://crystallize.com"> Crystallize</a>
 						</li>
 						<li>The frontend is hosted by
 							<a className="dark-link" aria-label="fly.io" href="https://fly.io"> Fly.io </a></li>
 						<li>Custom PIM (Product Information System), CMS (Content Management Studio) and DAM (Digital Asset Management) built with and hosted by
-							<a className="dark-link" aria-label="crystallize" href="https://crystallize.com"> Crystallize.</a>
+							<a className="dark-link" aria-label="crystallize" href="https://crystallize.com"> Crystallize</a>
 						</li>
 						<li>
 							<a className="dark-link" aria-label="tailwind css" href="https://tailwindcss.com">Tailwind CSS </a>
 							is implemented for CSS styling
 						</li>
-						<li>Original photography and graphic design enhanced by or created with Adobe Photoshop, Lightroom and Illustrator</li>
-					</ul>
-					<p>There is no link to the GitHub repo because this is a private, commercial endeavor</p>
-				</div>
-				<div>
-																				{/* drypeaks 1.0*/}
-					<a href="https://www.drypeaks.com">
-						<h3 className="project-link">Dry Peaks Sportswear 1.0</h3>
-					</a>
-					<p>Version 1.0 (launched) of Dry Peaks Sportswear's online store presents the following features:</p>	
-					<ul>
-						<li>Built with
-							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
-								a frontend framework based on the opensource 
-							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
-							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling. This UI stems from the Gatsby Shopify Starter</li>
-						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
-							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
-								with CI/CD (Continuous Integration and Continuous Deployment) via Github commits.</li>
-						<li>Custom CMS (Content Management Studio) for blog content built with and hosted by
-							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
-						</li>
 						<li>
-							<a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
-							is implemented to traverse Gatsby, Shopify and Sanity APIs
+							Customer login or guest checkout with payment services provided by <a href="https://www.stripe.com">Stripe</a>
 						</li>
 						<li>Original photography and graphic design enhanced by or created with Adobe Photoshop, Lightroom and Illustrator</li>
-						<li>
-							<a href="https://www.shopify.com/plus/solutions/headless-commerce">Headless Shopify</a> 
-						</li>	
 					</ul>
 					<p>There is no link to the GitHub repo because this is a private, commercial endeavor</p>
 				</div>
 				<div className="svg">
 					<LevelUp alt="level up" />
 				</div>
-				<div>
-																			{/* Clark Blog 4.0 */}
-					<a href="/">
-						<h3 className="project-link">clarknewell.tech 4.0</h3>
-					</a>
-					<p>Version 4.0 of my personal website presents the following features:</p>	
-					<ul>
-						<li>Custom website built with
-							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
-								a frontend framework based on the opensource 
-							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
-							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling. This UI stems from the default starter
-						</li>
-						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
-							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
-							with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Custom CMS (Content Management Studio) for blog content built with and hosted by
-							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a> Gatsby and Sanity APIs are traversed by <a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
-						</li>
-						<li>
-							<a className="dark-link" aria-label="sass" href="https://sass-lang.com">Sass, </a>
-							<a className="dark-link" aria-label="styled components" href="https://styled-components.com"> Styled Components, </a>
-							<a className="dark-link" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js, </a>
-							<a className="dark-link" aria-label="react syntax highlighter" href="https://www.npmjs.com/package/react-syntax-highlighter">React Syntax Highlighter, </a> 
-							and a custom responsive grid are implemented for CSS styling with a *mobile first* approach
-						</li>
-						<li> 
-							<a className="dark-link" aria-label="pure react carousel" href="https://express-labs.github.io/pure-react-carousel"> Pure React Carousel by Express </a>
-							(yes, the clothing company) is implemented for the testimonial carousel
-						</li>
-						<li>This website features self-designed logo and original blog content. Artwork sourced from
-							<a className="dark-link" aria-label="flaticon" href="https://www.flaticon.com"> flaticon </a>
-						</li>
-					</ul>
-					<span className="button-box">
-						<button className="repo-link">	
-						<a href="https://github.com/WCNewell/clark-front-four">
-							<Github className='portfolio-icon' alt='github icon' />
-								<p>View the code on Github</p>
-							</a>
-						</button>
-					</span>
-				</div>		
 				<div>
 																					{/* Clark Blog 3.0 */}
 					<a href="https://gracious-hoover-8389b4.netlify.app/">
@@ -146,7 +107,7 @@ const PortfolioPage = () => (
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
 								a frontend framework based on the opensource 
 							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
-							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling. This UI stems from the default starter
+							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling
 						</li>
 						<li>Custom CMS (Content Management Studio) for blog content built with and hosted by
 							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
@@ -178,8 +139,47 @@ const PortfolioPage = () => (
 						</button>
 					</span>
 				</div>
+				<div>
+																			{/* Clark Blog 4.0 */}
+					<a href="/">
+						<h3 className="project-link">clarknewell.tech 4.0</h3>
+					</a>
+					<p>Version 4.0 of my personal website presents the following features:</p>	
+					<ul>
+						<li>Custom website built with
+							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby </a>
+						</li>
+						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
+							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
+							with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Custom CMS (Content Management Studio) for blog content built with and hosted by
+							<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a> Gatsby and Sanity APIs are traversed by <a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
+						</li>
+						<li>
+							<a className="dark-link" aria-label="sass" href="https://sass-lang.com">Sass, </a>
+							<a className="dark-link" aria-label="styled components" href="https://styled-components.com"> Styled Components, </a>
+							<a className="dark-link" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js, </a>
+							<a className="dark-link" aria-label="react syntax highlighter" href="https://www.npmjs.com/package/react-syntax-highlighter">React Syntax Highlighter, </a> 
+							and a custom responsive grid are implemented for CSS styling with a *mobile first* approach
+						</li>
+						<li> 
+							<a className="dark-link" aria-label="pure react carousel" href="https://express-labs.github.io/pure-react-carousel"> Pure React Carousel by Express </a>
+							(yes, the clothing company) is implemented for the testimonial carousel
+						</li>
+						<li>This website features self-designed original logo / branding, and original blog content. Artwork sourced from
+							<a className="dark-link" aria-label="flaticon" href="https://www.flaticon.com"> Flaticon </a>
+						</li>
+					</ul>
+					<span className="button-box">
+						<button className="repo-link">	
+						<a href="https://github.com/WCNewell/clark-front-four">
+							<Github className='portfolio-icon' alt='github icon' />
+								<p>View the code on Github</p>
+							</a>
+						</button>
+					</span>
+				</div>		
 				<div className="svg">
-					<Stars alt="stars" />
+					<Social alt="social media smile, hearts and thumbs up" />
 				</div>		
 				<div>
 																			{/* Clark's Slices */}
