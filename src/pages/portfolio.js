@@ -10,7 +10,7 @@ import Github from '../assets/github.inline.svg'
 const DryPeaks = () => {
 	return (
 		<StaticImage
-			src="../images/230113_LandingPageV1.JPG"
+			src="../images/230120_DryPeaks-Remix.JPG"
 			alt="Dry Peaks Homepage"
 			placeholder="blurred"
 			width={1500}
@@ -23,8 +23,8 @@ const PortfolioPage = () => (
 		<h1 className="page-title">portfolio</h1>
 		<section className="top-content">
 			<div>
-				<a alt="link to drypeaks online store" href="https://www.drypeaks.com"><DryPeaks /></a>
-				<p className="image-caption">The first iteration of <a href="https://www.drypeaks.com">Dry Peaks</a> sportswear's online store is a React/GatsbyJS frontend dual sourced from headless Shopify and Sanity.io backends.</p>
+				<DryPeaks />
+				<p className="image-caption">The second iteration of <a href="https://www.drypeaks.com">Dry Peaks</a> sportswear's online store is being built with React Remix and Crystallize API</p>
 				<h2>Purpose</h2>
 				<p className="caption">To drive the development of web/software and social media projects that deliver value to the customer and the community at large.</p>
 			</div>
@@ -39,7 +39,7 @@ const PortfolioPage = () => (
 					<a href="https://www.drypeaks.com">
 						<h3 className="project-link">Dry Peaks Sportswear 1.0</h3>
 					</a>
-					<p>Version 1.0 of Dry Peaks Sportswear's online store is launched and live so please buy a headband! 😅 and check out the following features:</p>	
+					<p>Version 1.0 of Dry Peaks Sportswear's online store is soft launched and live so please buy a headband 😅 and check out the following features:</p>	
 					<ul>
 						<li>Built with
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
@@ -57,7 +57,7 @@ const PortfolioPage = () => (
 							is implemented to traverse Gatsby, Shopify and Sanity APIs
 						</li>
 						<li>
-							<a href="https://www.shopify.com/plus/solutions/headless-commerce">Headless Shopify</a> provides the PIM (Product Information Management), check out payment, and shipping features
+							<a href="https://www.shopify.com/plus/solutions/headless-commerce">Headless Shopify</a> provides the PIM (Product Information Management), check out, payment, and shipping features
 						</li>
 						<li>Original photography and graphic design enhanced by or created with Adobe Photoshop, Lightroom and Illustrator</li>	
 					</ul>
