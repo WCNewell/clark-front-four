@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import BlogList from "../components/blog-list"
 import Seo from "../components/seo"
@@ -39,6 +39,11 @@ const BlogPage = ({ data }) => {
           <BlogList posts={posts} />
         </div>
       </section>
+      <section className="bottom-content">
+			<Link to="/contact">
+        <button className="repo-link"><b>Contact Me</b></button>
+      </Link>
+		</section>
     </Layout>
   )
 }

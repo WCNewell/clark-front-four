@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from "../components/seo"
@@ -224,6 +225,11 @@ const PortfolioPage = () => (
 					</span> */}
 				</div>
 			</article>
+		</section>
+		<section className="bottom-content">
+			<Link to="/blog">
+        <button className="repo-link"><b>Read Blog Posts</b></button>
+      </Link>
 		</section>
 	</Layout>
 )

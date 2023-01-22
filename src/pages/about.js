@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -161,6 +162,9 @@ const AboutPage = () => (
 				<h4 className="service">Denver LGBT Tech</h4>
 				<p className="service">Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Denver, Colorado area via meetup.</p>	
 			</div>
+			<Link to="/portfolio">
+          <button className="repo-link"><b>See Portfolio</b></button>
+      </Link>
 		</section>
   </Layout>
 )
