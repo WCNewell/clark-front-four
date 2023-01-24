@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import downLoadFile from '../assets/230118_Newell_William-Clark_Resume-Full.pdf'
+import downLoadFile from '../assets/Newell_William-Clark_Resume-Full.pdf'
 import Diploma from "../assets/diploma.inline.svg"
 import StartUp from '../assets/start-up.inline.svg'
 import LevelUp from '../assets/level.inline.svg'
@@ -83,7 +83,7 @@ const AboutPage = () => (
 						<a href="https://www.drypeaks.com"><h3>Founder and Business Owner</h3></a>
 						<p>Sept 2022 - Current</p>
 						<ul>
-							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design and manufacturing and sales of moisture wicking sportswear available via <a href="https://www.drypeaks.com">online store.</a></li>
+							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design, development, and sales of moisture wicking sportswear available via <a href="https://www.drypeaks.com">online store.</a></li>
 							<li>Principal Web Developer, manage PIM and CMS backends (currently migrating from Shopify and Sanity.io to Crystallize) while building a custom React frontend (currently migrating from Gatsby to Remix)</li>
 							<li>Lead Digital Marketing Manager, Photographer and Graphic Designer creating and running a digial marketing campaign on Instagram and TikTok while creating original blog content</li>
 							<li>Personally pack and ship all orders, and manufacture prototype products</li>
