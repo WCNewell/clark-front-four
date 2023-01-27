@@ -38,7 +38,7 @@ const AboutPage = () => (
 				<ClarkAlyeska />
 				<p className="image-caption">Hello World! I'm a business owner, customer service manager, web developer, outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 				<h2>Goal</h2>
-				<p className="caption">To support, uplift, and coach my team while delighting clients as a Scrum Master, Project Manager and/or Web Developer.
+				<p className="caption">To support, uplift, and coach my team while delighting clients as Scrum Master, Project Manager and/or Web Developer.
 				<strong><a alt="link to download pdf resume" href={downLoadFile} download> Download My Resume.</a></strong></p>
 			</div>
 		</section>		
