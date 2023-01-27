@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import downLoadFile from '../assets/Newell_William-Clark_Resume-Full.pdf'
+import downLoadFile from '../assets/Newell_William-Clark_Resume1-Full.pdf'
 import Diploma from "../assets/diploma.inline.svg"
 import StartUp from '../assets/start-up.inline.svg'
 import LevelUp from '../assets/level.inline.svg'
@@ -38,7 +38,7 @@ const AboutPage = () => (
 				<ClarkAlyeska />
 				<p className="image-caption">Hello World! I'm a business owner, customer service manager, web developer, outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 				<h2>Goal</h2>
-				<p className="caption">To uplift and coach your team while delighting clients as a Scrum Master, Project Manager or Web Developer.
+				<p className="caption">To support, uplift, and coach my team while delighting clients as a Scrum Master, Project Manager and/or Web Developer.
 				<strong><a alt="link to download pdf resume" href={downLoadFile} download> Download My Resume.</a></strong></p>
 			</div>
 		</section>		
