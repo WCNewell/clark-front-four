@@ -78,7 +78,7 @@ const PortfolioPage = () => (
 							library. This UI is based on the Remix boilerplate from 
 							<a className="dark-link" aria-label="crystallize" href="https://crystallize.com"> Crystallize</a>
 						</li>
-						<li>The frontend is hosted by
+						<li>The full stack eCommerce app is hosted by
 							<a className="dark-link" aria-label="fly.io" href="https://fly.io"> Fly.io </a></li>
 						<li>Custom PIM (Product Information System), CMS (Content Management Studio) and DAM (Digital Asset Management) built with and hosted by
 							<a className="dark-link" aria-label="crystallize" href="https://crystallize.com"> Crystallize</a>
