@@ -37,7 +37,7 @@ const PortfolioPage = () => (
 				</div>
 				<div>
 																				{/* drypeaks 1.0*/}
-					<a href="https://www.drypeaks.com">
+					<a href="https://stellular-begonia-b45d0d.netlify.app/">
 						<h3 className="project-link">Dry Peaks Sportswear Alternate 1.0</h3>
 					</a>
 					<p>In order to focus on product development at this time, <a href="https://www.drypeaks.com">Dry Peaks</a> Sportswear's website is currently a customized Shopify template. We are experimenting in the background with two custom alternatives. The first one is a <a href="https://stellular-begonia-b45d0d.netlify.app/">Gatsby on React frontend</a> using Shopify as a headless API.</p>	
