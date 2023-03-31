@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import downLoadFile from '../assets/Newell_William-Clark_Resume1-Full.pdf'
+import downLoadFile from '../assets/Newell_William-Clark_Resume-Full.pdf'
 import Diploma from "../assets/diploma.inline.svg"
 import StartUp from '../assets/start-up.inline.svg'
 import LevelUp from '../assets/level.inline.svg'
@@ -36,7 +36,7 @@ const AboutPage = () => (
 		<section className="top-content">
 			<div>
 				<ClarkAlyeska />
-				<p className="image-caption">Hello World! I'm a business owner, customer service manager, web developer, outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
+				<p className="image-caption">Hello World! I'm an entrepreneur/business owner, customer service manager, outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 				<h2>Goal</h2>
 				<p className="caption">To support, uplift, and coach my team while delighting clients as Scrum Master, Project Manager, Web Developer and/or Quality Analyst.
 				<strong><a alt="link to download pdf resume" href={downLoadFile} download> Download My Resume.</a></strong></p>
@@ -63,7 +63,7 @@ const AboutPage = () => (
 						</p>
 					</ul>
 					<ul>
-						<h3>Certified Web Development Immersive</h3>
+						<h3>Certified Web Developer</h3>
 						<h4>Galvanize + Hack Reactor, Jul 2018</h4>
 						<p><a href="https://www.galvanize.com/"> Galvanize,</a> in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, including front-end frameworks, building back-end databases with API CRUD connectivity, pair programming, and agile workflow.</p>	
 					</ul>
@@ -84,8 +84,8 @@ const AboutPage = () => (
 						<p>Sept 2022 - Current</p>
 						<ul>
 							<li>Currently as sole proprietor and "solopreneur", wear all the hats while directing the design, development, and sales of moisture wicking sportswear available via <a href="https://www.drypeaks.com">online store.</a></li>
-							<li>Principal Web Developer, manage PIM and CMS backends (currently migrating from Shopify and Sanity.io to Crystallize) while building a custom React frontend (currently migrating from Gatsby to Remix)</li>
-							<li>Lead Digital Marketing Manager, Photographer and Graphic Designer creating and running a digial marketing campaign on Instagram and TikTok while creating original blog content</li>
+							<li>Principal Web Developer, manage PIM and CMS backends (eventually migrating from Shopify and Sanity.io to Crystallize) while building a custom React frontend (eventually migrating from Shopify to Gatsby or Remix)</li>
+							<li>Lead Digital Marketing Manager, Photographer and Graphic Designer creating and running a digial marketing campaign on social media while creating original blog content</li>
 							<li>Personally pack and ship all orders, and manufacture prototype products</li>
 							<li>Oversee business licenses, finances, taxes and trademark applications</li>
 							<li>I am looking for collaborators and business partners, so please feel free to <a href="/contact">contact me</a></li>
@@ -95,8 +95,8 @@ const AboutPage = () => (
 						<h3>Customer Service Manager - Kroger dba Smith's Marketplace</h3>
 						<p>Sept 2018 - Current</p>
 						<ul>
-							<li>Responsible for supervising a 170,000 sq. ft. superstore while directly managing up to 30 people per day</li>
-							<li>Respond to and resolve customer feedback</li>
+							<li>Keyholder, responsible for supervising all operations of a 170,000 sq. ft. superstore in the evenings, while directly managing up to 30 people per shift in the Front End Department</li>
+							<li>Respond in real time to constant fluctuations in business volume, and resolve customer feedback</li>
 							<li>Ensure maintenance and operability of check-out technology including self-checkout robots and SmartSafe while protecting substantial cash assets</li>
 							<li>Trained in inventory ordering as well as selection and curbside delivery of online Pickup orders</li>
 						</ul>
@@ -116,7 +116,7 @@ const AboutPage = () => (
 						<LevelUp alt="level up" />
 					</div>
 					<div>
-						<h3 className>Administrative Assistant - University of Utah</h3>
+						<h3 className>Project Coordinator - University of Utah</h3>
 						<p>Dec 2007 - Jul 2014</p>
 						<ul>
 							<li>Former Assistant to the Director of the Center for Engineering Innovation in the Dept. of Electrical & Computer Engineering and Nanotechnology Institute of Utah</li>

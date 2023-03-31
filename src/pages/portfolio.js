@@ -25,9 +25,9 @@ const PortfolioPage = () => (
 		<section className="top-content">
 			<div>
 				<DryPeaks />
-				<p className="image-caption">The second iteration of <a href="https://www.drypeaks.com">Dry Peaks</a> sportswear's online store is being built with React Remix and Crystallize API</p>
+				<p className="image-caption">An alternate custom version of <a href="https://www.drypeaks.com">Dry Peaks</a> Sportswear's online store is being developed with React Remix and Crystallize API</p>
 				<h2>Purpose</h2>
-				<p className="caption">To drive the development of web/software and social media projects that deliver value to the customer and the community at large.</p>
+				<p className="caption">To drive the development of web/software/e-commerce and social media projects that deliver value to the customer and the community at large.</p>
 			</div>
 		</section>
 		<section className="mid-content">
@@ -38,9 +38,9 @@ const PortfolioPage = () => (
 				<div>
 																				{/* drypeaks 1.0*/}
 					<a href="https://www.drypeaks.com">
-						<h3 className="project-link">Dry Peaks Sportswear 1.0</h3>
+						<h3 className="project-link">Dry Peaks Sportswear Alternate 1.0</h3>
 					</a>
-					<p>Version 1.0 of Dry Peaks Sportswear's online store is soft launched and live so please buy a headband 😅 and check out the following features:</p>	
+					<p>In order to focus on product development at this time, <a href="https://www.drypeaks.com">Dry Peaks</a> Sportswear's website is currently a customized Shopify template. We are experimenting in the background with two custom alternatives. The first one is a <a href="https://stellular-begonia-b45d0d.netlify.app/">Gatsby on React frontend</a> using Shopify as a headless API.</p>	
 					<ul>
 						<li>Built with
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
@@ -58,7 +58,7 @@ const PortfolioPage = () => (
 							is implemented to traverse Gatsby, Shopify and Sanity APIs
 						</li>
 						<li>
-							<a href="https://www.shopify.com/plus/solutions/headless-commerce">Headless Shopify</a> provides the PIM (Product Information Management), check out, payment, and shipping features
+							<a href="https://www.shopify.com/plus/solutions/headless-commerce">Headless Shopify</a> provides the PIM (Product Information Management)
 						</li>
 						<li>Original photography and graphic design enhanced by or created with Adobe Photoshop, Lightroom and Illustrator</li>	
 					</ul>
@@ -67,9 +67,9 @@ const PortfolioPage = () => (
 				<div>
 																					{/* drypeaks 2.0*/}
 					<a href="">
-						<h3 className="project-link">Dry Peaks Sportswear 2.0</h3>
+						<h3 className="project-link">Dry Peaks Sportswear Alternate 2.0</h3>
 					</a>
-					<p>Version 2.0 (not yet launched) of Dry Peaks Sportswear's online store presents the following features:</p>	
+					<p>A second alternate (not yet launched) of Dry Peaks Sportswear's online store presents the following features:</p>	
 					<ul>
 						<li>Built with
 							<a className="dark-link" aria-label="remix" href="https://remix.run"> Remix, </a>

@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => {
           </h1>
           <Diamond alt="diamond" className="svg-two"/>
           <h2 className="text-two">
-            What if your next hire came with 28 years of <b>customer service</b> experience?
+            What if your next Project Manager came with 28 years of <b>customer service</b> experience?
           </h2>
           <Mission alt="mountain top" className="svg-three"/>
           <h2 className="text-three">
