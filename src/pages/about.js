@@ -38,7 +38,7 @@ const AboutPage = () => (
 				<ClarkAlyeska />
 				<p className="image-caption">Hello World! I'm an entrepreneur/business owner, customer service manager, outdoorsman, and CrossFit athlete. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 				<h2>Goal</h2>
-				<p className="caption">To support, uplift, and coach my team while delighting clients as Scrum Master, Project Manager, Web Developer and/or Quality Analyst.
+				<p className="caption">To support, uplift, and coach my team as a Project Manager.
 				<strong><a alt="link to download pdf resume" href={downLoadFile} download> Download My Resume.</a></strong></p>
 			</div>
 		</section>		
@@ -88,7 +88,7 @@ const AboutPage = () => (
 							<li>Lead Digital Marketing Manager, Photographer and Graphic Designer creating and running a digial marketing campaign on social media while creating original blog content</li>
 							<li>Personally pack and ship all orders, manufacture prototype products, and develop tech packs for suppliers</li>
 							<li>Oversee business licenses, finances, taxes and trademark applications</li>
-							<li>I am looking for collaborators and business partners, so please feel free to <a href="/contact">contact me</a></li>
+							<li>I am looking for collaborators and business partners, so please feel free to <a href="mailto:contact@drypeaks.com">contact Dry Peaks</a></li>
 						</ul>
 					</div>
 					<div>

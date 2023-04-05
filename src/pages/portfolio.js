@@ -27,7 +27,7 @@ const PortfolioPage = () => (
 				<DryPeaks />
 				<p className="image-caption">An alternate custom version of <a href="https://www.drypeaks.com">Dry Peaks</a> Sportswear's online store is being developed with React Remix and Crystallize API</p>
 				<h2>Purpose</h2>
-				<p className="caption">To drive the development of web/software/e-commerce and social media projects that deliver value to the customer and the community at large.</p>
+				<p className="caption">To drive the development of web, software, and e-commerce projects that deliver value to the customer and the community at large.</p>
 			</div>
 		</section>
 		<section className="mid-content">
@@ -40,7 +40,7 @@ const PortfolioPage = () => (
 					<a href="https://stellular-begonia-b45d0d.netlify.app/">
 						<h3 className="project-link">Dry Peaks Sportswear Alternate 1.0</h3>
 					</a>
-					<p>In order to focus on product development at this time, <a href="https://www.drypeaks.com">Dry Peaks</a> Sportswear's website is currently a customized Shopify template. We are experimenting in the background with two custom alternatives. The first one is a <a href="https://stellular-begonia-b45d0d.netlify.app/">Gatsby on React frontend</a> using Shopify as a headless API.</p>	
+					<p>In order to focus on product development at this time, <a href="https://www.drypeaks.com">Dry Peaks</a> Sportswear's website is currently a customized Shopify template. We are experimenting in the background with two custom alternatives. The first one is a <a href="https://stellular-begonia-b45d0d.netlify.app/">Gatsby on React frontend</a> using Shopify as a headless API and presents the following features:</p>	
 					<ul>
 						<li>Built with
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
@@ -69,7 +69,7 @@ const PortfolioPage = () => (
 					<a href="">
 						<h3 className="project-link">Dry Peaks Sportswear Alternate 2.0</h3>
 					</a>
-					<p>A second alternate (not yet launched) of Dry Peaks Sportswear's online store presents the following features:</p>	
+					<p>A second alternate (not yet launched) of Dry Peaks Sportswear's online store is being developed with the following features:</p>	
 					<ul>
 						<li>Built with
 							<a className="dark-link" aria-label="remix" href="https://remix.run"> Remix, </a>
